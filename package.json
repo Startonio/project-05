@@ -1,11 +1,11 @@
 {
-  "name": "The-Watch-Shot-05",
+  "name": "the-watch-shot-05",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/The-Watch-Shot-05/",
+    "build": "vite build --base=/the-watch-shot-05/",
     "preview": "vite preview"
   },
   "devDependencies": {
