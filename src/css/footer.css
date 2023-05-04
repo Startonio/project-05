@@ -1,0 +1,133 @@
+/* Footer */
+.link {
+  text-decoration: none;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.section-footer {
+  width: 100%;
+  background: #1e2827;
+}
+.contaner {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer-contaner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* address */
+
+.contact-inform-tel {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.contact-inform-map {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+/* navigation */
+.footer-nav-link {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* social */
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-social-item {
+  margin-right: 14px;
+}
+/* copyright */
+.copyright {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #c6cdd1;
+  opacity: 0.9;
+}
+.copy-text {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: right;
+  letter-spacing: -0.02em;
+  color: #c6cdd1;
+}
+
+@media screen and (min-width: 375px) {
+  .section-footer {
+    padding-top: 40px;
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-footer {
+    padding-top: 80px;
+  }
+  .contact-inform-tel {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  .contact-inform-map {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  .footer-nav-link {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  .footer-social-item {
+    margin-right: 16px;
+  }
+  .copyright {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+  .copy-text {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-footer {
+    padding-top: 104px;
+    padding-top: 32px;
+  }
+}
+
+/* mobale */
+
+/* tablet */
+
+/* descktop */
