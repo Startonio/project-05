@@ -36,3 +36,9 @@ img {
   padding-right: 20px;
   margin: 0 auto;
 }
+
+body {
+  font-family: "Epilogue", sans-serif;
+  background-color: #ffffff;
+  color: #141414;
+}
