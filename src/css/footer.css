@@ -55,7 +55,14 @@
 }
 
 /* social */
-
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-social-item {
+  margin-right: 14px;
+}
 /* copyright */
 .copyright {
   font-family: 'Epilogue';
@@ -99,6 +106,9 @@
   .footer-nav-link {
     font-size: 18px;
     line-height: 1.33;
+  }
+  .footer-social-item {
+    margin-right: 16px;
   }
   .copyright {
     font-size: 14px;
