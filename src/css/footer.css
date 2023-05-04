@@ -1,14 +1,7 @@
 /* Footer */
-/* .link {
-  text-decoration: none;
-}
-.list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-} */
 .section-footer {
   width: 100%;
+  height: 534px;
   background: #1e2827;
 }
 .contaner {
@@ -17,13 +10,23 @@
 }
 .footer-contaner {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 104px;
 }
-
+.footer-logo-link {
+  display: block;
+  margin-bottom: 40px;
+}
 /* address */
 
+.contact-inform-item .contact-inform-tel {
+  margin-bottom: 20px;
+}
 .contact-inform-tel {
+  display: block;
+  max-width: 175px;
+  height: 24px;
   font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
@@ -33,6 +36,9 @@
   color: #ffffff;
 }
 .contact-inform-map {
+  display: block;
+  max-width: 181px;
+  height: 72px;
   font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
@@ -43,7 +49,15 @@
 }
 
 /* navigation */
+.footer-nav-item {
+  margin-bottom: 18px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
 .footer-nav-link {
+  display: block;
   font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
@@ -55,16 +69,30 @@
 }
 
 /* social */
+
 .footer-social-list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.footer-social-link {
+  display: block;
+  /* border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px; */
+}
+.footer-icon-facebook {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
 .footer-social-item {
   margin-right: 14px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 /* copyright */
-.copyright {
+/* .copyright {
   font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
@@ -73,8 +101,8 @@
   letter-spacing: -0.02em;
   color: #c6cdd1;
   opacity: 0.9;
-}
-.copy-text {
+} */
+/* .copy-text {
   font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
@@ -83,48 +111,48 @@
   text-align: right;
   letter-spacing: -0.02em;
   color: #c6cdd1;
-}
+} */
 
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
   .section-footer {
     padding-top: 40px;
     padding-top: 20px;
   }
-}
-@media screen and (min-width: 768px) {
+} */
+/* @media screen and (min-width: 768px) {
   .section-footer {
     padding-top: 80px;
-  }
-  .contact-inform-tel {
+  } */
+/* .contact-inform-tel {
     font-size: 18px;
     line-height: 1.33;
-  }
-  .contact-inform-map {
+  } */
+/* .contact-inform-map {
     font-size: 18px;
     line-height: 1.33;
-  }
-  .footer-nav-link {
+  } */
+/* .footer-nav-link {
     font-size: 18px;
     line-height: 1.33;
-  }
-  .footer-social-item {
+  } */
+/* .footer-social-item {
     margin-right: 16px;
-  }
-  .copyright {
+  } */
+/* .copyright {
     font-size: 14px;
     line-height: 1.29;
-  }
-  .copy-text {
+  } */
+/* .copy-text {
     font-size: 14px;
     line-height: 1.29;
-  }
-}
-@media screen and (min-width: 1280px) {
+  } */
+/* } */
+/* @media screen and (min-width: 1280px) {
   .section-footer {
     padding-top: 104px;
     padding-top: 32px;
   }
-}
+} */
 
 /* mobale */
 
