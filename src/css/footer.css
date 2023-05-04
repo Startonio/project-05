@@ -1,12 +1,12 @@
 /* Footer */
-.link {
+/* .link {
   text-decoration: none;
 }
 .list {
   margin: 0;
   padding: 0;
   list-style: none;
-}
+} */
 .section-footer {
   width: 100%;
   background: #1e2827;
@@ -24,7 +24,7 @@
 /* address */
 
 .contact-inform-tel {
-  font-family: 'Epilogue';
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -33,7 +33,7 @@
   color: #ffffff;
 }
 .contact-inform-map {
-  font-family: 'Epilogue';
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -44,7 +44,7 @@
 
 /* navigation */
 .footer-nav-link {
-  font-family: 'Epilogue';
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -65,7 +65,7 @@
 }
 /* copyright */
 .copyright {
-  font-family: 'Epilogue';
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -75,7 +75,7 @@
   opacity: 0.9;
 }
 .copy-text {
-  font-family: 'Epilogue';
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
