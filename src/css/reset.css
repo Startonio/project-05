@@ -32,4 +32,13 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
 }
