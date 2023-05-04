@@ -1,21 +1,16 @@
-.header {
-  padding: 20px 0;
+header{
+  background-color: black;
+  width: 100%;
 }
 
-.nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+.logo-mob-header{
+  fill: white;
+  
+}
+/*? ---Burger menu-- */
+.mob-menu.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
-}
