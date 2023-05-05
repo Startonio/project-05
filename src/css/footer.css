@@ -1,14 +1,7 @@
 /* Footer */
-.link {
-  text-decoration: none;
-}
-.list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 .section-footer {
   width: 100%;
+  height: auto;
   background: #1e2827;
 }
 .contaner {
@@ -17,14 +10,23 @@
 }
 .footer-contaner {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 104px;
 }
-
+.footer-logo-link {
+  display: block;
+  margin-bottom: 40px;
+}
 /* address */
-
+.contact-inform-item .contact-inform-tel {
+  margin-bottom: 20px;
+}
 .contact-inform-tel {
-  font-family: 'Epilogue';
+  display: block;
+  max-width: 175px;
+  height: 24px;
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -33,7 +35,10 @@
   color: #ffffff;
 }
 .contact-inform-map {
-  font-family: 'Epilogue';
+  display: block;
+  max-width: 181px;
+  height: 72px;
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -43,8 +48,16 @@
 }
 
 /* navigation */
+.footer-nav-item {
+  margin-bottom: 18px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
 .footer-nav-link {
-  font-family: 'Epilogue';
+  display: block;
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -60,12 +73,31 @@
   justify-content: center;
   align-items: center;
 }
+.footer-social-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
 .footer-social-item {
   margin-right: 14px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 /* copyright */
+.block-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .copyright {
-  font-family: 'Epilogue';
+  display: inline-block;
+  margin-bottom: 32px;
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -75,7 +107,8 @@
   opacity: 0.9;
 }
 .copy-text {
-  font-family: 'Epilogue';
+  display: inline-block;
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -84,14 +117,20 @@
   letter-spacing: -0.02em;
   color: #c6cdd1;
 }
-
-@media screen and (min-width: 375px) {
+.bl-text {
+  display: inline-block;
+  padding-bottom: 32px;
+}
+.terms-service {
+  margin-left: 18px;
+}
+/* @media screen and (min-width: 375px) {
   .section-footer {
     padding-top: 40px;
     padding-top: 20px;
   }
-}
-@media screen and (min-width: 768px) {
+} */
+/* @media screen and (min-width: 768px) {
   .section-footer {
     padding-top: 80px;
   }
@@ -118,13 +157,13 @@
     font-size: 14px;
     line-height: 1.29;
   }
-}
-@media screen and (min-width: 1280px) {
+} */
+/* @media screen and (min-width: 1280px) {
   .section-footer {
     padding-top: 104px;
     padding-top: 32px;
   }
-}
+} */
 
 /* mobale */
 
