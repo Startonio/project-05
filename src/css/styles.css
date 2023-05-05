@@ -16,7 +16,18 @@
 
 :root {
   font-family: "Epilogue", sans-serif;
-  font-size: 16px;
+  --hero-p: #ffffff;
+  --title-hero-h1: #ffffff;
+  /* це з домашки 7р */
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --bg-gradient: (linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)));
+  --title: #1E2827;
+  --black-paragraph-title: #141414;
+  /* той сірий колір */
+  --paragraph: rgba(20, 20, 20, 0.5);
+
+
+  /* font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 
@@ -26,5 +37,5 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; */
 }
