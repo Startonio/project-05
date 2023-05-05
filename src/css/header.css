@@ -8,6 +8,7 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+
 .logo-mob-header {
   fill: white;
   width: 14px;
@@ -34,12 +35,28 @@ header {
   display: flex;
   align-items: center;
 }
+/* .logo-text:before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-image: url("../img/icons.svg#icon-logo-header-mobale");
+  background-size: cover;
+  background: linear-gradient(332.98deg, #000000 3.5%, #FFFFFF 39.23%, #FFFFFF 75.71%);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+} */
+
 .btn-burger-menu {
   display: block;
   border: none;
   background-color: transparent;
   padding: 0;
 }
+.header-phone,
+.header-list {
+  display: none;
+}
+
 /*? ---Burger menu-- */
 .mob-menu.is-hidden {
   opacity: 0;
@@ -81,7 +98,6 @@ header {
   align-items: center;
   flex-direction: column;
   margin-top: 200px;
-
 }
 .burger-menu-item {
   display: flex;
@@ -94,4 +110,64 @@ header {
   color: #ffffff;
   margin-bottom: 14px;
 }
-
+/*? @ Media @*/
+@media screen and (min-width: 768px) {
+  .logo-container {
+    padding: 20px 32px 80px 32px;
+  }
+  .btn-burger-menu {
+    display: none;
+  }
+  .logo-mob-header {
+    width: 19px;
+    height: 19px;
+  }
+  .logo-text {
+    font-size: 15px;
+    line-height: calc(15 / 15);
+  }
+  .header-phone,
+  .header-list {
+    display: flex;
+  }
+  .header-list {
+    gap: 40px;
+  }
+  .menu-item {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .phone-number {
+    font-size: 9px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 18px 36px 18px 35px;
+    background: #1e2827;
+    border-radius: 8px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .logo-container{
+  padding: 34px 132px 80px 132px;
+  }
+  .header-nav {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .header-list-container{
+    margin-left: 80px;
+  }
+  .header-phone{
+    margin-left: auto;
+    margin-right: 0;
+  }
+  
+}
