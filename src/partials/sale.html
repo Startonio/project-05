@@ -1,74 +1,161 @@
-
 <section class="sale section">
-  <div class="container sale-container">
-    <h2 class="sale-title title" data-aos="fade-up">Sale</h2>
-    
-   <div>
+  <div class="sale-container">
+    <h2 class="sale-title">Sale</h2>
+
+    <div class="sale-foto">
+      <div class="sale-foto-small">
         <ul class="sale-list list">
           <li class="sale-item">
-            <img
-              src="./images/about-img-1.jpeg"
-              alt="haircut"
-              width="270"
-              height="445"
-            />
+            <picture>
+              <source
+                srcset="
+                  ../img/sale/sale-watch-1x.jpg 1x,
+                  ../img/sale/sale-watch-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+
+              <source
+                srcset="
+                  ../img/sale/sale-watch-1-mob-1x.jpg 1x,
+                  ../img/sale/sale-watch-1-mob-2x.jpg 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                src="../img/sale/sale-watch-1x.jpg"
+                width="146"
+                alt="watch photo"
+              />
+            </picture>
           </li>
           <li class="sale-item">
-            <img
-              src="./images/about-img-2.jpeg"
-              alt="haircut"
-              width="270"
-              height="445"
-            />
+            <picture>
+              <source
+                srcset="
+                  ../img/sale/sale-watch-2-1x.jpg 1x,
+                  ../img/sale/sale-watch-2-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+
+              <source
+                srcset="
+                  ../img/sale/sale-watch-2-mob-1x.jpg 1x,
+                  ../img/sale/sale-watch-2-mob-2x.jpg 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img src="../sale-watch-2-1x.jpg" width="146" alt="watch photo" />
+            </picture>
           </li>
           <li class="sale-item">
-            <img
-              src="./images/about-img-2.jpeg"
-              alt="haircut"
-              width="270"
-              height="445"
-            />
+            <picture>
+              <source
+                srcset="
+                  ../img/sale/sale-watch-3-1x.jpg 1x,
+                  ../img/sale/sale-watch-3-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+
+              <source
+                srcset="
+                  ../img/sale/sale-watch-3-mob.jpg    1x,
+                  ../img/sale/sale-watch-3-mob-2x.jpg 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                src="../img/sale/sale-watch-3-1x.jpg"
+                width="146"
+                alt="watch photo"
+              />
+            </picture>
           </li>
           <li class="sale-item">
-            <img
-              src="./images/about-img-2.jpeg"
-              alt="haircut"
-              width="270"
-              height="445"
-            />
+            <picture>
+              <source
+                srcset="
+                  ../img/sale/sale-watch-4-1x.jpg 1x,
+                  ../img/sale/sale-watch-4-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+
+              <source
+                srcset="
+                  ../img/sale/sale-watch-4-mob.jpg    1x,
+                  ../img/sale/sale-watch-4-mob-2x.jpg 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                src="../sale/sale-watch-1x.jpg"
+                width="146"
+                alt="watch photo"
+              />
+            </picture>
           </li>
         </ul>
-        <div class="sale-item-big">
-          <img
-            src="./images/about-img-2.jpeg"
-            alt="haircut"
-            width="270"
-            height="445"
+      </div>
+      <div class="sale-item-big">
+        <picture>
+          <source
+            srcset="
+              ../img/sale/sale-watch-big-mob-1x.jpg 1x,
+              ../img/sale/sale-watch-big-mob-2x.jpg 2x
+            "
+            media="(max-width: 767px)"
           />
-        </div>
+          <source
+            srcset="
+              ../img/sale/sale-watch-big-1x.jpg 1x,
+              ../img/sale/sale-watch-big-2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+
+          <img
+            src="../img/sale/sale-watch-big-1x.jpg"
+            width="406"
+            alt="watch photo"
+          />
+        </picture>
+      </div>
     </div>
     <div class="sale-wrap">
-        <h3>Greenlane Watch By Police For MenHT </h3>
-      <p class="salet-top-text top-text">Product tag: PEWJK2227003</p>
-      <ul>
-        <li>
-            <h4 class="sale-price">&#8364€700</h4>
-        </li>
-        <li>
-<h4 class="sale-old-price">&#8364€1000</h4>
-        </li>
-      </ul>
-     <h3>Description</h3>
-      <p class="sale-bottom-text">Richly detailed with an understated design - the Police Men’s Greenlane watch features a versatile multifunction design that fits effortlessly into work and play. The steel case is adorned with a semi-transparent black dial. The timepiece exhibits a contrast through a black IP bracelet with matching crown and pushers.</p>
-      <h3>DETAILS & FEATUREStion</h3>
-      <p class="sale-text">Gender: man
-        Size: 46x54.5mm
-        Case Colour: Steel
-        Band Material: Metal
-        Case Material: Metal
-        Features: Multifunction
-        Water Resistant: 5 (ATM)
-        Band Colour: Steel</p>
+      <h3 class="sale-subject">Greenlane Watch By Police For MenHT</h3>
+      <p class="sale-text">Product tag: PEWJK2227003</p>
+      <div class="sale-prise-box">
+        <ul class="sale-price list">
+          <li class="sale-price-list">
+            <h4 class="sale-price-item">&#8364;700</h4>
+          </li>
+          <li class="sale-price-list">
+            <h4 class="sale-old-price-item">&#8364;1000</h4>
+          </li>
+        </ul>
+      </div>
+      <h4 class="sale-item-title">DESCRIPTION</h4>
+      <p class="sale-text sale-text-descr">
+        Richly detailed with an understated design - the Police Men&rsquo;s
+        Greenlane watch features a versatile multifunction design that fits
+        effortlessly into work and play. The steel case is adorned with a
+        semi-transparent black dial. The timepiece exhibits a contrast through a
+        black IP bracelet with matching crown and pushers.
+      </p>
+      <h4 class="sale-item-title">DETAILS & FEATURESTION</h4>
+      <p class="sale-text">
+        Gender: man<br />
+        Size: 46x54.5mm<br />
+        Case Colour: Steel<br />
+        Band Material: Metal<br />
+        Case Material: Metal<br />
+        Features: Multifunction<br />
+        Water Resistant: 5 (ATM)<br />
+        Band Colour: Steel
+      </p>
     </div>
   </div>
 </section>
