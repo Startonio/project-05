@@ -1,1 +1,282 @@
-                    
+.catalog {
+  background-color: #ffffff;
+  align-items: center;
+  display: flex;
+}
+.container {
+}
+
+.text-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #1e2827;
+  margin-bottom: 40px;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.catalog-watch {
+  background-color: #ffffff;
+  flex-basis: calc((100% - 40px) / 1);
+}
+
+.catalog-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #141414;
+  width: 276px;
+  margin-top: 14px;
+}
+.span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.hide {
+  display: none;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 335px;
+  height: 360px;
+  perspective: 1000px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+  align-items: center;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #1e2827;
+  color: white;
+  border-radius: 8px;
+  transform: rotateY(180deg);
+  padding: 40px 60px 40px 40px;
+}
+
+.gap-one {
+  margin-bottom: 14px;
+}
+
+.catalog-overlay-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+.catalog-overlay-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.gap-two {
+  width: 162px;
+}
+
+.catalog-btn {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #1e2827;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  padding: 14px 28px;
+  margin-top: 40px;
+  margin-left: auto;
+}
+
+.catalog-btn:hover {
+  background-color: #1e2827;
+  border: 1px solid #ffffff;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+}
+
+.modal {
+  width: 95%;
+  height: 95%;
+  max-height: 1073px;
+  overflow: scroll;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 223px rgba(0, 0, 0, 0.05),
+    0px 0px 130.6px rgba(0, 0, 0, 0.037963),
+    0px 0px 71.0296px rgba(0, 0, 0, 0.0303704),
+    0px 0px 36.2375px rgba(0, 0, 0, 0.025),
+    0px 0px 18.1704px rgba(0, 0, 0, 0.0196296),
+    0px 0px 8.77546px rgba(0, 0, 0, 0.012037);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  padding: 40px 20px;
+}
+.modal-close-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  border: none;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+}
+
+.mobile-close-icon {
+  fill: #141414;
+  stroke: #141414;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.catalog-wrap-modal {
+  margin-bottom: 40px;
+}
+
+.modal-form {
+}
+
+.modal-field {
+  margin-bottom: 18px;
+}
+.input-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #141414;
+  margin-bottom: 12px;
+}
+.input-wrap {
+  position: relative;
+}
+.modal-input {
+  width: 100%;
+  height: 42px;
+  border: 1px solid rgba(20, 20, 20, 0.5);
+  border-radius: 8px;
+}
+
+.modal-input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+  padding-left: 16px;
+}
+
+.modal-textarea {
+  display: block;
+  width: 100%;
+  height: 170px;
+  border-radius: 8px;
+  border: 1px solid rgba(20, 20, 20, 0.5);
+  padding-top: 12px;
+  padding-left: 16px;
+  outline: transparent;
+  resize: none;
+}
+
+.modal-textarea::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.modal-form-btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 18px;
+  padding-bottom: 18pt;
+  width: 100%;
+  height: 50px;
+  background-color: #1e2827;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  align-self: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.privacy-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.4);
+}
+.privacy-link {
+  color: rgba(20, 20, 20, 0.4);
+}
