@@ -239,6 +239,11 @@ img {
   height: 42px;
   border: 1px solid rgba(20, 20, 20, 0.5);
   border-radius: 8px;
+  transition: border-color var(--transition);
+}
+
+.modal-input:focus {
+  border-color: rgb(30, 29, 29);
 }
 
 .modal-input::placeholder {
@@ -260,6 +265,11 @@ img {
   padding-left: 16px;
   outline: transparent;
   resize: none;
+  transition: border-color var(--transition);
+}
+
+.modal-textarea:focus {
+  border-color: rgb(30, 29, 29);
 }
 
 .modal-textarea::placeholder {
@@ -286,8 +296,7 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 12px;
-  transition: background-color250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color var(--transition), border var(--transition);
 }
 
 .modal-form-btn:hover {
