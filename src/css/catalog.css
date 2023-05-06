@@ -1,0 +1,426 @@
+.catalog {
+  background-color: #ffffff;
+  align-items: center;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+img {
+  width: 100%;
+}
+
+.heart {
+  position: absolute;
+  right: 0;
+  stroke: rgba(20, 20, 20, 0.1);
+}
+
+.tuck {
+  display: none;
+}
+.text-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #1e2827;
+  margin-bottom: 40px;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.catalog-watch {
+  background-color: #ffffff;
+  flex-basis: 100%;
+  align-items: center;
+}
+
+.catalog-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #141414;
+  margin-top: 14px;
+}
+.span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.hide {
+  display: none;
+}
+
+.flip-card {
+  background-color: transparent;
+  height: 360px;
+  perspective: 1000px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  /* width: 100%;
+  height: 100%; */
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+
+  /* width: 100%;
+  height: 100%; */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+  align-items: center;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #1e2827;
+  color: white;
+  border-radius: 8px;
+  transform: rotateY(180deg);
+  padding: 40px 60px 40px 40px;
+}
+
+.gap-one {
+  margin-bottom: 14px;
+}
+
+.catalog-overlay-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+.catalog-overlay-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.gap-two {
+  width: 162px;
+}
+
+.catalog-btn {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #1e2827;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  padding: 14px 28px;
+  margin-top: 40px;
+  margin-left: auto;
+  transition: background-color250ms var(--transition), border var(--transition);
+}
+
+.catalog-btn:hover {
+  background-color: #1e2827;
+  border: 1px solid #ffffff;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  transition: opacity var(--transition), visibility var(--transition);
+}
+
+.modal {
+  width: 95%;
+  height: 95%;
+  max-height: 1073px;
+  overflow: scroll;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 223px rgba(0, 0, 0, 0.05),
+    0px 0px 130.6px rgba(0, 0, 0, 0.037963),
+    0px 0px 71.0296px rgba(0, 0, 0, 0.0303704),
+    0px 0px 36.2375px rgba(0, 0, 0, 0.025),
+    0px 0px 18.1704px rgba(0, 0, 0, 0.0196296),
+    0px 0px 8.77546px rgba(0, 0, 0, 0.012037);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform var(--transition);
+  padding: 40px 20px;
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scaleY(0);
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  border: none;
+  padding-top: 12px;
+  padding-right: 12px;
+  transition: fill var(--transition);
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  fill: #ffffff;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.catalog-wrap-modal {
+  margin-bottom: 40px;
+}
+
+.modal-field {
+  margin-bottom: 18px;
+}
+.input-text {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #141414;
+  margin-bottom: 12px;
+}
+.input-wrap {
+  position: relative;
+}
+.modal-input {
+  width: 100%;
+  height: 42px;
+  border: 1px solid rgba(20, 20, 20, 0.5);
+  border-radius: 8px;
+  transition: border-color var(--transition);
+}
+
+.modal-input:focus {
+  border-color: rgb(30, 29, 29);
+}
+
+.modal-input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+  padding-left: 16px;
+}
+
+.modal-textarea {
+  display: block;
+  width: 100%;
+  height: 170px;
+  border-radius: 8px;
+  border: 1px solid rgba(20, 20, 20, 0.5);
+  padding-top: 12px;
+  padding-left: 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color var(--transition);
+}
+
+.modal-textarea:focus {
+  border-color: rgb(30, 29, 29);
+}
+
+.modal-textarea::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.modal-form-btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 18px;
+  padding-bottom: 18pt;
+  width: 100%;
+  height: 50px;
+  background-color: #1e2827;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  align-self: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 12px;
+  transition: background-color var(--transition), border var(--transition);
+}
+
+.modal-form-btn:hover {
+  background-color: #1e2827;
+  border: 1px solid #ffffff;
+}
+
+.privacy-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.4);
+}
+.privacy-link {
+  color: rgba(20, 20, 20, 0.4);
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+  .catalog-watch {
+    flex-basis: calc((100% - 40px) / 1);
+  }
+  .flip-card {
+    width: 335px;
+  }
+
+  .modal {
+    width: 335px;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .catalog {
+    margin-bottom: 128px;
+  }
+  .text-title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .catalog-list {
+    gap: 40px 32px;
+  }
+  .catalog-watch {
+    flex-basis: calc((100% - 32px) / 2);
+  }
+
+  .modal {
+    width: 744px;
+    height: 670px;
+    padding: 40px;
+  }
+
+  .modal-close-btn {
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+
+  img {
+    width: 276px;
+    max-width: none;
+  }
+
+  .img-wrap {
+    display: flex;
+    gap: 20px;
+  }
+  .form-wrap {
+    width: 368px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .catalog {
+    margin-bottom: 0;
+  }
+
+  .catalog-list {
+    gap: 64px 24px;
+  }
+  .catalog-watch {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  .flip-card {
+    width: 276px;
+    height: 325px;
+  }
+  .hide {
+    display: flex;
+  }
+  .flip-card-back {
+    padding: 20p;
+  }
+
+  .modal {
+    width: 904px;
+    height: 694px;
+    border-radius: 8px;
+  }
+  .img-wrap {
+    gap: 40px;
+  }
+  .form-wrap {
+    width: 508px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .tuck {
+    display: block;
+  }
+}

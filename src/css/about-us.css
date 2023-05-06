@@ -1,0 +1,124 @@
+.section-about {
+    align-items: center;
+}
+
+.about-title {
+    font-weight: 600;
+font-size: 32px;
+line-height: calc(40 / 32);
+letter-spacing: -0.02em;
+color: #1E2827;
+margin-bottom: 40px;
+
+}
+.about-text {
+font-weight: 300;
+font-size: 14px;
+line-height: calc(18 / 14);
+letter-spacing: -0.02em;
+color: #141414;
+width:100% ;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  max-width:335px ;
+}
+.about-text:not(:last-child){
+    margin-bottom: 20px;
+}
+
+
+.about-gif{
+    position:relative;
+    display: block;
+     height: 335px;
+     width: 365px; 
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+@media screen and (min-width:375px){
+    .container-about{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        /* gap: 40px;  */
+    }
+} 
+
+@media screen and (min-width:768px){
+    .container-about{
+        width: 704px;
+        display: flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+        align-items:flex-start;
+        padding: 0px;
+        gap: 40px;
+    }  
+    .section-about{
+        display: flex;
+        margin-top: 64px;
+
+      
+    }
+
+    .about-title{
+ font-size: 40px;
+line-height: calc(44 / 40);
+
+    } 
+    .about-text{
+        /* width: 250px; */
+        font-size: 14px;
+line-height: calc(18 / 14);
+margin-left: 0;
+margin-right: 0;
+    }
+    .about-text:not(:last-child){
+        margin-bottom: auto;
+    }
+
+    .about-gif{
+        height: 465px;
+        width: 704px; 
+    }
+   
+}
+@media screen  and (min-width:1280px){
+    .container-about{
+        width: 1280px;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0px;
+        /* gap: 40px; */
+    }  
+    .about-text{
+       max-width:   439px;
+        font-size: 14px;
+line-height: calc(18 / 14);
+margin-bottom: 0px;
+align-items: center;
+
+}
+.text-desc{
+    justify-content: space-between;
+}
+
+.about-gif{
+  
+    height: 505px;
+    width: 892px; 
+}
+.gif-position{
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+}
+
+}
