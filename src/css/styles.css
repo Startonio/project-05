@@ -12,18 +12,30 @@
 @import url('./new-watches.css');
 @import url('./sale.css');
 @import url('./footer.css');
+@import url('./fonts.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: "Epilogue", sans-serif;
+  --hero-p: #ffffff;
+  --title-hero-h1: #ffffff;
+  /* це з домашки 7р */
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --bg-gradient: (linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)));
+  --title: #1E2827;
+  --black-paragraph-title: #141414;
+  /* той сірий колір */
+  --paragraph: rgba(20, 20, 20, 0.5);
+
+
+  /* font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 
   color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  --background-color: #ffffff;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; */
 }
