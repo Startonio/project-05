@@ -15,7 +15,7 @@
               />
 
               <p class="catalog-text">
-                Tube Watch S42 Date Steel With Black Case <br />
+                Tube Watch S42 Date Steel With Black<br />
                 <span class="span">€395</span>
               </p>
             </div>
@@ -91,7 +91,7 @@
               />
 
               <p class="catalog-text">
-                Diver 300M Co‑Axial Master Chronometer Chronograph <br />
+                Diver 300M Co‑Axial Master Chronometer<br />
                 <span class="span">€600</span>
               </p>
             </div>
@@ -158,6 +158,9 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
+              <svg class="heart tuck" width="24" height="24">
+                <use href="./img/icons.svg#icon-icon_heart"></use>
+              </svg>
               <img
                 src="./img/catalog/catalog-5.jpg"
                 alt="photo of the watch"
@@ -196,6 +199,10 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
+              <svg class="heart tuck" width="24" height="24">
+                <use href="./img/icons.svg#icon-icon_heart"></use>
+              </svg>
+
               <img
                 src="./img/catalog/catalog-6.jpg"
                 alt="photo of the watch"
@@ -243,7 +250,7 @@
               />
 
               <p class="catalog-text">
-                Diver 300M Co-Axial Master Chronometer <br />
+                Diver 300M Co-Axial Master<br />
                 <span class="span">€1200</span>
               </p>
             </div>
@@ -358,7 +365,7 @@
                 />
 
                 <p class="catalog-text">
-                  Diver 300M Co‑Axial Master Chronometer Chronograph <br />
+                  Diver 300M Co‑Axial Master<br />
                   <span class="span">€400</span>
                 </p>
               </div>
@@ -467,86 +474,89 @@
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button type="button" data-modal-close class="modal-close-btn">
-      X
-      <!-- <svg class="mobile-close-icon" width="10" height="10">
-        <use href="./im/icons.svg#icon-icon_close-mobale-menu"></use>
-      </svg> -->
+      <svg class="mobile-close-icon" width="24" height="24">
+        <use href="./img/icons.svg#icon-close_modal-tab-desk"></use>
+      </svg>
     </button>
-    <img
-      src="./img/catalog/catalog-1.jpg"
-      alt="photo of the watch"
-      srcset="./img/catalog/catalog-1-2x.jpg 2x"
-      width="276"
-      height="274"
-    />
-    <div class="catalog-wrap-modal">
-      <p class="catalog-text">
-        Tube Watch S42 Date Steel With Black Case
-        <span class="span">€395</span>
-      </p>
+    <div class="img-wrap">
+      <div class="item">
+        <img
+          src="./img/catalog/catalog-1.jpg"
+          alt="photo of the watch"
+          srcset="./img/catalog/catalog-1-2x.jpg 2x"
+          width="276"
+          height="274"
+        />
+
+        <p class="catalog-text">
+          Tube Watch S42 Date Steel With Black<br />
+          <span class="span">€395</span>
+        </p>
+      </div>
+      <div class="form">
+        <form class="modal-form">
+          <div class="modal-field">
+            <label for="user-name" class="input-text">Full name</label>
+            <div class="input-wrap">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="modal-input"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="modal-field">
+            <label for="user-email" class="input-text">Email</label>
+            <div class="input-wrap">
+              <input
+                type="email"
+                name="user-email"
+                id="user-email"
+                class="modal-input"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="modal-field">
+            <label for="user-card" class="input-text">Card number</label>
+            <div class="input-wrap">
+              <input
+                type="text"
+                name="user-card"
+                id="user-card"
+                class="modal-input"
+                placeholder="Enter card"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="modal-field">
+            <label for="user-text" class="input-text">Comments</label>
+
+            <textarea
+              name="user-text"
+              id="user-text"
+              class="modal-textarea"
+              placeholder="Enter your text"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="modal-form-btn">SUBMINT</button>
+          <label for="privacy" class="privacy-text"
+            >By clicking on “Submit” button, you agree to our
+            <a class="privacy-link" href="">Privacy Policy</a>, and allow
+            Promodo to use this information for marketing purposes.
+          </label>
+        </form>
+      </div>
     </div>
-
-    <form class="modal-form">
-      <div class="modal-field">
-        <label for="user-name" class="input-text">Full name</label>
-        <div class="input-wrap">
-          <input
-            type="text"
-            name="user-name"
-            id="user-name"
-            class="modal-input"
-            placeholder="Enter your full name"
-            required
-          />
-        </div>
-      </div>
-
-      <div class="modal-field">
-        <label for="user-email" class="input-text">Email</label>
-        <div class="input-wrap">
-          <input
-            type="email"
-            name="user-email"
-            id="user-email"
-            class="modal-input"
-            placeholder="Enter your email"
-            required
-          />
-        </div>
-      </div>
-
-      <div class="modal-field">
-        <label for="user-card" class="input-text">Card number</label>
-        <div class="input-wrap">
-          <input
-            type="text"
-            name="user-card"
-            id="user-card"
-            class="modal-input"
-            placeholder="Enter card"
-            required
-          />
-        </div>
-      </div>
-
-      <div class="modal-field">
-        <label for="user-text" class="input-text">Comments</label>
-
-        <textarea
-          name="user-text"
-          id="user-text"
-          class="modal-textarea"
-          placeholder="Enter your text"
-        ></textarea>
-      </div>
-
-      <button type="submit" class="modal-form-btn">SUBMINT</button>
-      <label for="privacy" class="privacy-text"
-        >By clicking on “Submit” button, you agree to our
-        <a class="privacy-link" href="">Privacy Policy</a>, and allow Promodo to
-        use this information for marketing purposes.
-      </label>
-    </form>
   </div>
 </div>
 
