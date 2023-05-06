@@ -15,7 +15,7 @@
 @import url('./fonts.css');
 
 :root {
-  font-family: "Epilogue", sans-serif;
+  --font-family: "Epilogue", sans-serif;
   --hero-p: #ffffff;
   --title-hero-h1: #ffffff;
   /* це з домашки 7р */
