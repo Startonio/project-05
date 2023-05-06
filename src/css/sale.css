@@ -77,13 +77,7 @@ button {
   flex-direction: column;
 }
 
-.sale-item {
-}
-.sale-item-big {
-}
-
 .sale-subject {
-  font-weight: 400;
   font-size: 24px;
   line-height: calc(24 / 24);
   letter-spacing: -0.02em;
@@ -92,11 +86,10 @@ button {
   margin-bottom: 8px;
 }
 .sale-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
-  color: rgba(20, 20, 20, 0.5);
+  color: var(--paragraph);
   width: 335px;
   margin-bottom: 16px;
 }
@@ -118,7 +111,6 @@ button {
   align-items: center;
 }
 .sale-price-item {
-  font-weight: 400;
   font-size: 18px;
   line-height: calc(24 / 18);
   letter-spacing: -0.02em;
@@ -126,22 +118,20 @@ button {
   margin-right: 8px;
 }
 .sale-old-price-item {
-  font-weight: 400;
   font-size: 12px;
   line-height: calc(14 / 12);
   letter-spacing: -0.02em;
   text-decoration-line: line-through;
-  color: rgba(20, 20, 20, 0.5);
+  color: var(--paragraph);
 }
 .sale-item-title {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 17px;
   align-items: center;
   justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 17px;
 
-  font-weight: 400;
   font-size: 18px;
   line-height: calc(24 / 18);
   letter-spacing: -0.02em;
@@ -178,6 +168,9 @@ button {
   }
   .sale-item {
     width: 146px;
+  }
+  .sale-item-big {
+    width: 406px;
   }
   .sale-section {
     padding-bottom: 128px;
