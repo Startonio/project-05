@@ -9,8 +9,8 @@
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.7619" d="M13.714 20.571l4.571-4.571-4.571-4.571"></path>
 </symbol>
 <symbol id="icon-logo-header-mobale" viewBox="0 0 32 32">
-<path fill="#000" style="fill: var(--color2, #000)" d="M28.13 18.565l-6.747-15.458-1.474-1.019-1.726-0.549-2.331-0.629-2.743 1.177-1.824 1.019 6.898 15.458h9.943z"></path>
-<path fill="#000" style="fill: var(--color2, #000)" d="M3.913 13.394l6.747 15.495 1.472 1.022 1.723 0.549 2.334 0.631 2.741-1.179 1.826-1.022-6.901-15.495h-9.943z"></path>
+<path  d="M28.13 18.565l-6.747-15.458-1.474-1.019-1.726-0.549-2.331-0.629-2.743 1.177-1.824 1.019 6.898 15.458h9.943z"></path>
+<path  d="M3.913 13.394l6.747 15.495 1.472 1.022 1.723 0.549 2.334 0.631 2.741-1.179 1.826-1.022-6.901-15.495h-9.943z"></path>
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M10.926 3.31l-10.48 15.141 10.475 0.114 7.573-15.255c0.533-1.561 2.194-0.651 2.96 0-3.269-5.993-8.384-2.498-10.533 0zM21.074 28.69l10.478-15.141-10.475-0.114-7.573 15.255c-0.533 1.561-2.194 0.651-2.96 0 3.269 5.993 8.384 2.498 10.533 0z"></path>
 </symbol>
 <symbol id="icon-logo_header-tab-desk" viewBox="0 0 32 32">
@@ -66,13 +66,13 @@
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M2.667 7.993c0-0.733 0.595-1.327 1.327-1.327h10.68c0.733 0 1.327 0.594 1.327 1.327s-0.594 1.327-1.327 1.327h-10.68c-0.733 0-1.327-0.594-1.327-1.327v0zM2.667 16c0-0.733 0.595-1.327 1.327-1.327h24.013c0.733 0 1.327 0.594 1.327 1.327s-0.594 1.327-1.327 1.327h-24.013c-0.733 0-1.327-0.594-1.327-1.327v0zM3.993 22.68c-0.733 0-1.327 0.594-1.327 1.327s0.594 1.327 1.327 1.327h16.013c0.733 0 1.327-0.594 1.327-1.327s-0.594-1.327-1.327-1.327h-16.013z"></path>
 </symbol>
 <symbol id="icon-icon_heart" viewBox="0 0 32 32">
-<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M27.787 6.147c-1.327-1.328-3.161-2.149-5.187-2.149s-3.859 0.821-5.187 2.149l-1.413 1.413-1.413-1.413c-1.327-1.327-3.161-2.148-5.187-2.148-4.051 0-7.335 3.284-7.335 7.335 0 2.026 0.821 3.859 2.148 5.187l11.787 11.787 11.787-11.787c1.328-1.327 2.149-3.161 2.149-5.187s-0.821-3.859-2.149-5.187l-0-0z"></path>
+<path fill="none" stroke="##000" style="stroke: var(--color1, ##000)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M27.787 6.147c-1.327-1.328-3.161-2.149-5.187-2.149s-3.859 0.821-5.187 2.149l-1.413 1.413-1.413-1.413c-1.327-1.327-3.161-2.148-5.187-2.148-4.051 0-7.335 3.284-7.335 7.335 0 2.026 0.821 3.859 2.148 5.187l11.787 11.787 11.787-11.787c1.328-1.327 2.149-3.161 2.149-5.187s-0.821-3.859-2.149-5.187l-0-0z"></path>
 </symbol>
 <symbol id="icon-icon_close-mobale-menu" viewBox="0 0 32 32">
-<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7333" d="M24 8l-16 16M8 8l16 16"></path>
+<path fill="none" stroke="#000" style="stroke: var(--color1, #000)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7333" d="M24 8l-16 16M8 8l16 16"></path>
 </symbol>
 <symbol id="icon-close_modal-tab-desk" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7333" d="M24 8l-16 16M8 8l16 16"></path>
+<path fill="none" stroke="#000" style="stroke: var(--color1, #000)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7333" d="M24 8l-16 16M8 8l16 16"></path>
 </symbol>
 </defs>
 </svg>
