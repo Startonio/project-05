@@ -4,24 +4,24 @@
 
 .about-title {
     font-weight: 600;
-font-size: 32px;
-line-height: calc(40 / 32);
-letter-spacing: -0.02em;
-color: #1E2827;
-margin-bottom: 40px;
+    font-size: 32px;
+    line-height: calc(40 / 32);
+    letter-spacing: -0.02em;
+    color: #1E2827;
+    margin-bottom: 40px;
 
 }
 .about-text {
-font-weight: 300;
-font-size: 14px;
-line-height: calc(18 / 14);
-letter-spacing: -0.02em;
-color: #141414;
-width:100% ;
-  display: block;
-  /* margin-left: auto;
-  margin-right: auto; */
-  max-width:335px ;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: calc(18 / 14);
+    letter-spacing: -0.02em;
+    color: #141414;
+    width:100% ;
+    display: block;
+    /* margin-left: auto; 
+    margin-right: auto; */
+    max-width:335px ;
 }
 .about-text:not(:last-child){
     margin-bottom: 20px;
@@ -31,8 +31,8 @@ width:100% ;
 .about-gif{
     position:relative;
     display: block;
-     height: 335px;
-     width: 365px; 
+    height: 335px;
+    width: 365px; 
     object-fit: cover;
     object-position: 50% 50%;
     margin-top: 40px;
@@ -67,16 +67,16 @@ width:100% ;
     }
 
     .about-title{
- font-size: 40px;
-line-height: calc(44 / 40);
+        font-size: 40px;
+        line-height: calc(44 / 40);
 
     } 
     .about-text{
         /* width: 250px; */
         font-size: 14px;
-line-height: calc(18 / 14);
-margin-left: 0;
-margin-right: 0;
+        line-height: calc(18 / 14);
+        margin-left: 0;
+        margin-right: 0;
     }
     .about-text:not(:last-child){
         margin-bottom: auto;
@@ -102,15 +102,13 @@ margin-right: 0;
        max-width:   439px;
        font-weight: 300;
         font-size: 14px;
-line-height: calc(18 / 14);
-letter-spacing: -0.02em;
-/* margin-bottom: 0px; */
-align-items: center;
-font-style: normal;
-
-color: #141414;
-
-}
+        line-height: calc(18 / 14);
+        letter-spacing: -0.02em;
+        /* margin-bottom: 0px; */
+        align-items: center;
+        font-style: normal;
+        color: #141414; 
+    }
 .text-desc{
     /* display: flex; */
     justify-content: space-between;
