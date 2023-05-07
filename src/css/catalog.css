@@ -5,9 +5,9 @@
   margin-bottom: 80px;
 }
 
-img {
+/* img {
   width: 100%;
-}
+} */
 
 .heart {
   position: absolute;
@@ -206,7 +206,7 @@ img {
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  fill: #ffffff;
+  fill: #a7a2a2;
 }
 
 .is-hidden {
@@ -364,7 +364,7 @@ img {
     padding-right: 20px;
   }
 
-  img {
+  .modal-img {
     width: 276px;
     max-width: none;
   }
