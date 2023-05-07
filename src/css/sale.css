@@ -39,7 +39,7 @@ button {
 /* ======================================Sale========================================== */
 
 .sale-title {
-  font-family: var(--font-family);
+
   font-weight: 600;
   font-size: 32px;
   line-height: calc(40 / 32);
@@ -49,7 +49,6 @@ button {
 }
 
 .sale-foto {
-  font-family: var();
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -198,11 +197,12 @@ button {
   .sale-container {
     width: 1177px;
     padding: 124px 98px 0px 98px;
-    background-color: #efefef;
+    
   }
   .sale-section {
     padding-bottom: 160px;
     padding-top: 80px;
+    background-color: #efefef;
   }
   .sale-wrap {
     width: 369px;
