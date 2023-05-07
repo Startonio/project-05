@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <title>The watch spot</title>
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
@@ -38,6 +39,23 @@
   </footer>
   <script src="./js/modal.js "></script>
   <script src="./js/menu.js "></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      loop: true,
+      keyboard: {
+        enabled: true
+      },
+        navigation: {
+        nextEL: ".button-next",
+        prevel: ".button-prev",
+      }
+    });
+  </script>
 </body>
 
 </html>
