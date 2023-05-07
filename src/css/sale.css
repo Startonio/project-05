@@ -30,7 +30,7 @@ button {
   width: 100%;
   margin: 0 auto;
   padding: 0px 20px;
-  background-color: #EFEFEF;;
+  background-color: #efefef;
 }
 .sale-section {
   padding-top: 0;
@@ -84,7 +84,6 @@ button {
   letter-spacing: -0.02em;
   color: var(--black-paragraph-title);
   max-width: 572px;
-  margin-bottom: 8px;
 }
 .sale-text {
   font-size: 14px;
@@ -93,6 +92,9 @@ button {
   color: var(--paragraph);
   width: 335px;
   margin-bottom: 16px;
+}
+.sale-text :not(:last-child) {
+  margin-bottom: 8px;
 }
 .sale-text-descr {
   margin-bottom: 40px;
