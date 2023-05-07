@@ -90,7 +90,7 @@ margin-right: 0;
 }
 @media screen  and (min-width:1280px){
     .container-about{
-        width: 1280px;
+        width: 1440px;
         display: flex;
         flex-direction:row;
         flex-wrap: wrap;
@@ -100,13 +100,19 @@ margin-right: 0;
     }  
     .about-text{
        max-width:   439px;
+       font-weight: 300;
         font-size: 14px;
 line-height: calc(18 / 14);
-margin-bottom: 0px;
+letter-spacing: -0.02em;
+/* margin-bottom: 0px; */
 align-items: center;
+font-style: normal;
+
+color: #141414;
 
 }
 .text-desc{
+    /* display: flex; */
     justify-content: space-between;
 }
 
