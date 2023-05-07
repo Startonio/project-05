@@ -1,5 +1,7 @@
 .section-about {
     align-items: center;
+    margin-top: 40px;
+ 
 }
 
 .about-title {
@@ -11,6 +13,7 @@
     margin-bottom: 40px;
 
 }
+
 .about-text {
     font-weight: 300;
     font-size: 14px;
@@ -57,8 +60,12 @@
         flex-wrap:nowrap;
         align-items:flex-start;
         padding: 0px;
-        gap: 40px;
+        /* gap: 40px; */
     }  
+    .about-title{
+        min-width: 174px;
+        margin-right: 40px;
+    }
     .section-about{
         display: flex;
         margin-top: 64px;
@@ -81,6 +88,12 @@
     .about-text:not(:last-child){
         margin-bottom: auto;
     }
+    .text-desc{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
 
     .about-gif{
         height: 465px;
@@ -98,6 +111,20 @@
         padding: 0px;
         /* gap: 40px; */
     }  
+/* .text-dest-left{
+    width: 439px;
+}
+.text-dest-right{
+    width: 380px;
+} */
+    .text-desc{
+              gap: 40px;
+           
+    }
+    .about-title{
+        min-width: 174px;
+        margin-right: 110px;
+    }
     .about-text{
        max-width:   439px;
        font-weight: 300;
