@@ -8,6 +8,12 @@
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7619" d="M6.857 0.381h18.286c3.577 0 6.476 2.9 6.476 6.476v18.286c0 3.577-2.899 6.476-6.476 6.476h-18.286c-3.577 0-6.476-2.899-6.476-6.476v-18.286c0-3.577 2.9-6.476 6.476-6.476z"></path>
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.7619" d="M13.714 20.571l4.571-4.571-4.571-4.571"></path>
 </symbol>
+<symbol id="icon-chevron-prev" viewBox="0 0 18 18">
+  <path d="M11.25 13.5L6.75 9L11.25 4.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>  
+</symbol>
+<symbol id="icon-chevron-next" viewBox="0 0 18 18">
+    <path d="M6.75 13.5L11.25 9L6.75 4.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
 <symbol id="icon-logo-header-mobale" viewBox="0 0 32 32">
 <path fill="#000" style="fill: var(--color2, #000)" d="M28.13 18.565l-6.747-15.458-1.474-1.019-1.726-0.549-2.331-0.629-2.743 1.177-1.824 1.019 6.898 15.458h9.943z"></path>
 <path fill="#000" style="fill: var(--color2, #000)" d="M3.913 13.394l6.747 15.495 1.472 1.022 1.723 0.549 2.334 0.631 2.741-1.179 1.826-1.022-6.901-15.495h-9.943z"></path>
@@ -73,6 +79,9 @@
 </symbol>
 <symbol id="icon-close_modal-tab-desk" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7333" d="M24 8l-16 16M8 8l16 16"></path>
+</symbol>
+<symbol id="icon-numbers-line" viewBox="0 0 32 2">
+<path d="M0 1H32" stroke="white"/>
 </symbol>
 </defs>
 </svg>
