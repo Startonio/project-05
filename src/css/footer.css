@@ -27,6 +27,11 @@
   margin-right: auto;
   margin-bottom: 40px;
 }
+
+ address {
+   font-style: normal;
+ }
+ 
 @media screen and (min-width: 375px) {
   .footer-logo-link {
     display: block;
@@ -183,4 +188,5 @@
   .footer-contaner {
     padding-bottom: 174px;
   }
+  
 }
