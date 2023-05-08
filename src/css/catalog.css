@@ -184,7 +184,7 @@
   padding: 40px 20px;
 }
 
-.backdrop.is-hidden .modal {
+.backdrop .is-hidden .modal {
   transform: translate(-50%, -50%) scaleY(0);
 }
 
