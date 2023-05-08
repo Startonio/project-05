@@ -1,0 +1,132 @@
+.conteiner{
+    width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.new-watch{
+    margin-bottom: 80px;
+}
+
+.new-watch_p{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.1;
+    letter-spacing: 0.06em;
+    color: rgba(20, 20, 20, 0.4);
+margin-bottom: 8px;
+
+}
+
+.new-watch_h{
+    max-width: 448px;
+    font-weight: 600;
+    font-size: 32px;
+line-height: 1.25;
+letter-spacing: -0.02em;
+color: #141414;
+margin-bottom: 40px;
+}
+.new-watch_ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.new_watches_img{
+    width: 335px; ;
+    height: 260px;
+    }
+
+
+@media  screen and (min-width: 768px) {
+    .new-watch_ul{
+        flex-direction: row;
+    } 
+
+    .new-watch_h{
+        font-size: 40px;
+        line-height: 1.1;
+        color: #1E2827;
+            }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .conteiner{
+        width: 768px;
+        padding: 0 32px;
+    }
+    .new-watch{
+        margin-bottom: 128px;
+    }
+  
+    
+
+    .new_watches_img{
+        width: 342px;
+height: 260px;
+    }
+ 
+}
+
+@media screen and (min-width: 1280px)
+{.conteiner{
+width: 1280px;
+padding: 0 52px;
+}
+.new-watch{
+    background: #FFFFFF;
+    padding: 80px 0;
+    margin-bottom: 80px;
+}
+
+.new-watch_h{
+    margin-bottom: 80px;
+}
+.new-watch_ul{
+    gap: 24px;
+}
+.new_watches_img{
+    width: 576px;
+height: 422px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
