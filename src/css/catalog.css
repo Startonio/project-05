@@ -401,7 +401,13 @@
   }
   .hide {
     display: flex;
+    gap: 24px;
   }
+
+  .hide-watch {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
   .flip-card-back {
     padding: 20p;
   }
@@ -414,6 +420,7 @@
   .img-wrap {
     gap: 40px;
   }
+
   .form-wrap {
     width: 508px;
   }
