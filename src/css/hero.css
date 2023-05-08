@@ -309,3 +309,25 @@
 
 
 /* DESKTOP*/
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;
+        padding-left: 132px;
+        padding-right: 132px;
+       
+
+    }
+
+         .hero-title {
+             display: block;
+             width: 750px;
+             /* margin-right: 51px; */
+             font-style: normal;
+             font-weight: 600;
+             font-size: 60px;
+             line-height: calc(62 / 60);
+             letter-spacing: -0.04em;
+             color: #FFFFFF;
+         }
+}
