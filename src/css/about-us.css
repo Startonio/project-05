@@ -100,8 +100,9 @@
    
 }
 @media screen  and (min-width:1280px){
-   .section-about{
-    margin: 0 auto;
+   .section-about {
+       margin: 0 auto;
+       width: 1280px;
    }
     .container-about{
         width: 1440px;
