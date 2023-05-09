@@ -5,10 +5,6 @@
   margin-bottom: 80px;
 }
 
-/* img {
-  width: 100%;
-} */
-
 .heart {
   position: absolute;
   right: 0;
@@ -18,6 +14,7 @@
 .tuck {
   display: none;
 }
+
 .text-title {
   font-weight: 600;
   font-size: 32px;
@@ -49,6 +46,7 @@
   color: #141414;
   margin-top: 14px;
 }
+
 .span {
   font-weight: 400;
   font-size: 12px;
@@ -67,16 +65,17 @@
   perspective: 1000px;
 }
 
-/* This container is needed to position the front and back side */
+/* This
+container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
-  /* width: 100%;
-  height: 100%; */
+  /* width: 100%; height: 100%; */
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+/* Do an horizontal flip when you move the mouse
+over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -85,14 +84,13 @@
 .flip-card-front,
 .flip-card-back {
   position: absolute;
-
-  /* width: 100%;
-  height: 100%; */
+  /* width: 100%; height: 100%; */
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
+/* Style the
+front side (fallback if image is missing) */
 .flip-card-front {
   color: black;
   align-items: center;
@@ -120,6 +118,7 @@
   color: #ffffff;
   margin-bottom: 6px;
 }
+
 .catalog-overlay-item {
   font-weight: 400;
   font-size: 14px;
@@ -222,6 +221,7 @@
 .modal-field {
   margin-bottom: 18px;
 }
+
 .input-text {
   display: inline-block;
   font-weight: 400;
@@ -231,9 +231,11 @@
   color: #141414;
   margin-bottom: 12px;
 }
+
 .input-wrap {
   position: relative;
 }
+
 .modal-input {
   width: 100%;
   height: 42px;
@@ -312,17 +314,20 @@
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.4);
 }
+
 .privacy-link {
   color: rgba(20, 20, 20, 0.4);
 }
 
 @media screen and (min-width: 375px) {
-  .container {
+  .catalog-container {
     width: 375px;
   }
+
   .catalog-watch {
     flex-basis: calc((100% - 40px) / 1);
   }
+
   .flip-card {
     width: 335px;
   }
@@ -334,21 +339,22 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .catalog-container {
     width: 768px;
     padding-left: 32px;
     padding-right: 32px;
-  }
-  .catalog {
     margin-bottom: 128px;
   }
+
   .text-title {
     font-size: 40px;
     line-height: 1.1;
   }
+
   .catalog-list {
     gap: 40px 32px;
   }
+
   .catalog-watch {
     flex-basis: calc((100% - 32px) / 2);
   }
@@ -373,39 +379,49 @@
     display: flex;
     gap: 20px;
   }
+
   .form-wrap {
     width: 368px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .catalog{
+  .catalog-container {
     margin: 0 auto;
-    width: 1280px;
-  }
-
-  .container {
     width: 1280px;
     padding-top: 80px;
     padding-bottom: 80px;
   }
 
   .catalog {
+    width: 1280px;
     margin-bottom: 0;
   }
 
   .catalog-list {
     gap: 64px 24px;
   }
+
   .catalog-watch {
     flex-basis: calc((100% - 72px) / 4);
   }
+
   .flip-card {
     width: 276px;
     height: 325px;
   }
+
   .hide {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+  }
+
+  .catalog-hide-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
   }
 
@@ -422,6 +438,7 @@
     height: 694px;
     border-radius: 8px;
   }
+
   .img-wrap {
     gap: 40px;
   }
