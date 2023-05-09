@@ -83,5 +83,11 @@
 <symbol id="icon-numbers-line" viewBox="0 0 32 2">
 <path d="M0 1H32" stroke="white"/>
 </symbol>
+<symbol id="icon-logo-18" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M28.129 18.564l-6.748-15.457-1.471-1.020-1.725-0.549-2.334-0.628-2.74 1.177-1.826 1.020 6.9 15.457h9.944z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M3.913 13.395l6.748 15.493 1.471 1.022 1.725 0.551 2.334 0.629 2.74-1.18 1.826-1.022-6.9-15.493h-9.944z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M10.924 3.309l-10.476 15.142 10.476 0.112 7.573-15.255c0.532-1.561 2.195-0.65 2.961 0-3.271-5.993-8.385-2.497-10.533 0z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M21.076 28.691l10.476-15.142-10.476-0.112-7.573 15.255c-0.532 1.561-2.195 0.65-2.961 0 3.271 5.993 8.385 2.497 10.533 0z"></path>
+</symbol>
 </defs>
 </svg>

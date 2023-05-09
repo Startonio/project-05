@@ -39,7 +39,6 @@ button {
 /* ======================================Sale========================================== */
 
 .sale-title {
-
   font-weight: 600;
   font-size: 32px;
   line-height: calc(40 / 32);
@@ -84,6 +83,7 @@ button {
   letter-spacing: -0.02em;
   color: var(--black-paragraph-title);
   max-width: 572px;
+  margin-bottom: 8px;
 }
 .sale-text {
   font-size: 14px;
@@ -91,7 +91,17 @@ button {
   letter-spacing: -0.02em;
   color: var(--paragraph);
   width: 335px;
-  margin-bottom: 16px;
+}
+.sale-text-first {
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  color: var(--paragraph);
+  width: 335px;
+  margin-bottom: 40px;
+}
+.serial {
+  margin-bottom: 8px;
 }
 .sale-text :not(:last-child) {
   margin-bottom: 8px;
@@ -155,7 +165,9 @@ button {
   height: 1px;
   background-color: var(--black-paragraph-title);
 }
-
+.sale-watch-details :not(:last-child) {
+  margin-bottom: px;
+}
 @media screen and (min-width: 375px) {
   .sale-container {
     width: 375px;
@@ -185,7 +197,7 @@ button {
   .sale-section {
     padding-bottom: 128px;
   }
-  .sale-text {
+  .sale-text-first {
     width: 572px;
   }
   .sale-subject {
@@ -197,20 +209,21 @@ button {
   .sale-container {
     width: 1177px;
     padding: 124px 98px 0px 98px;
-    
   }
   .sale-section {
     padding-bottom: 160px;
     padding-top: 80px;
     background-color: #efefef;
   }
+  .sale-foto {
+    margin-bottom: 0px;
+  }
   .sale-wrap {
     width: 369px;
   }
-  .sale-text {
+  .sale-text-first {
     width: 100%;
   }
-
   .sale-container {
     display: flex;
     justify-content: space-between;
