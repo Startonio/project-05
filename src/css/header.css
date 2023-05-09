@@ -44,7 +44,9 @@ header {
   background-size: cover;
   margin-right: 4px;
 }
-
+.header-list-container{
+  display: none;
+}
 .btn-burger-menu {
   display: block;
   border: none;
@@ -124,6 +126,9 @@ header {
   .logo-text:before  {
     width: 19px;
     height: 19px;
+  }
+  .header-list-container{
+    display: block;
   }
   .logo-text {
     font-size: 15px;
