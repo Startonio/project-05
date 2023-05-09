@@ -1,5 +1,8 @@
-.container-header{
+header{
   background-color: #141414;
+}
+
+.container-header{
   height: 100%;
   width: 100%;
 }
