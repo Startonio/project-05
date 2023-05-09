@@ -29,14 +29,14 @@
     margin-top: 60px;
     display: block;
     width: 266px;
-    
+
 }
 
- .swiper-text-final-wrapper {
-     display: flex;
-     align-items: center;
+.swiper-text-final-wrapper {
+    display: flex;
+    align-items: center;
 
- }
+}
 
 .hero-text-wrapper-mob {
     display: none;
@@ -177,7 +177,7 @@
 }
 
 @media screen and (min-width: 375px) {
-    .hero-container{
+    .hero-container {
         width: 375px;
         padding-left: 20px;
         padding-right: 20px;
@@ -205,13 +205,17 @@
 /* TABLET*/
 
 @media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-        margin: 0 auto ;
-    }
-    
+
+
+    @media screen and (min-width: 768px) and (max-width: 1179px) {
+        .hero-container {
+            width: 768px;
+            padding-left: 32px;
+            padding-right: 32px;
+            margin: 0px;
+
+        }
+
 
     .hero {
         /* max-width: 768px; */
@@ -254,12 +258,14 @@
 
     .swiper {
         width: 436px;
-       
+
     }
+
     .swiper-big-wrapper {
         width: 437px;
-        
+
     }
+
     .swiper-text-final-wrapper {
         display: flex;
         align-items: center;
@@ -275,7 +281,9 @@
 
     }
 
-
+.hero-text-wrapper-mob-1 {
+    display: none;
+}
 
     .hero-text-wrapper-mob {
         display: block;
@@ -283,19 +291,20 @@
         margin-left: 0px;
         margin-top: 0px;
     }
- .hero-text {
-     display: block;
-      width: 248px; 
-      margin-top: 0px;
-     margin-left: 20px; 
-     font-family: 'Epilogue';
-     font-style: normal;
-     font-weight: 300;
-     font-size: 14px;
-     line-height: calc(18 / 14);
-     letter-spacing: -0.02em;
-     color: #FFFFFF;
- }
+
+    .hero-text {
+        display: block;
+        width: 248px;
+        margin-top: 0px;
+        margin-left: 20px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: calc(18 / 14);
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
 
     .buttons-numbers-wrapper {
         display: flex;
@@ -333,7 +342,7 @@
 
     .swiper-numbers-line-icon {
         width: 40px;
-      
+
     }
 
     .swiper-numbers::before {
@@ -391,15 +400,15 @@
 
 @media screen and (min-width: 1280px) {
     .hero-container {
-            position: relative;
-            width: 1280px;
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-bottom: 80px;
-            /* padding-top: 10px; */
-        }
+        position: relative;
+        width: 1280px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 80px;
+        /* padding-top: 10px; */
+    }
 
-    
+
 
     .hero {
         max-width: 1440px;
@@ -412,9 +421,9 @@
 
     }
 
-    
 
-    
+
+
 
 
     .hero-title {
@@ -441,9 +450,14 @@
     .hero-text-wrapper-tab-desk {
         display: none;
     }
-        .hero-text-wrapper-mob {
-            display: none;
-        }
+
+    .hero-text-wrapper-mob {
+        display: none;
+    }
+
+    .hero-text-wrapper-mob-1 {
+        display: none;
+    }
 
     .hero-text-desktop {
         display: block;
@@ -459,24 +473,28 @@
         color: #FFFFFF;
     }
 
+
+  
+
         .swiper-big-wrapper {
             margin-top: 100px;
         }
 
 
-        .swiper-numbers {
-            margin-left: auto;
-            position: absolute;
-            left: 221%;
-            top: 35%
-        }
+
+    .swiper-numbers {
+        margin-left: auto;
+        position: absolute;
+        left: 221%;
+        top: 35%
+    }
 
 
     .hero-bg-wrapper-desktop,
     .hero-bg-wrapper {
         position: absolute;
         left: 515px;
-        top: 27%;
+        top: 34%;
         z-index: 99;
         background-repeat: no-repeat;
         width: 676px;
