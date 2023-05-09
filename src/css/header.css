@@ -1,5 +1,7 @@
-header {
-  background-color: black;
+.container-header{
+  background-color: #141414;
+  height: 100%;
+  width: 100%;
 }
 .logo-container {
   min-width: 320px;
@@ -158,6 +160,16 @@ header {
   }
 }
 @media screen and (min-width: 1280px) {
+  .container-header {
+      width: 1280px;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      margin: 0 auto;
+      background-color: #141414;
+      height: 100%;
+      width: 100%;
+    }
+ 
   .logo-container {
     padding: 34px 132px 80px 132px;
   }

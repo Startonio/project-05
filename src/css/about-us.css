@@ -1,7 +1,6 @@
 .section-about {
     align-items: center;
     margin-top: 40px;
- 
 }
 
 .about-title {
@@ -101,6 +100,9 @@
    
 }
 @media screen  and (min-width:1280px){
+   .section-about{
+    margin: 0 auto;
+   }
     .container-about{
         width: 1440px;
         display: flex;

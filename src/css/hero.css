@@ -358,14 +358,15 @@
         width: 1280px;
         padding-left: 132px;
         padding-right: 132px;
-
-
     }
 
     .hero {
         max-width: 1440px;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         position: relative;
+        background-color: #141414;
+        height: 100%;
+        width: 100%;
     }
 
     .hero-title {
@@ -401,6 +402,8 @@
             line-height: calc(18 / 14);
             letter-spacing: -0.02em;
             color: #FFFFFF;
+            width: 282px;
+            margin-bottom: 77px;
         }
 
 
