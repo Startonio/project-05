@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <title>The watch spot</title>
+    
+    <link rel="stylesheet" href="/project-05/assets/index-c88cd4d2.css">
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <title>The watch spot</title>
-  
-  <link rel="stylesheet" href="/project-05/assets/index-a6c52c33.css">
-</head>
-
-<body>
-  <header>
+  <body>
     <header>
+      <header>
   <div class="logo-container container">
     <nav class="header-nav">
       <a href="./index.html" class="link link-logo-header">
-        <div class="container-icon">
-         
-        </div>
         <p class="logo-text">thewatchspot</p>
       </a>
       <button class="btn-burger-menu" type="submit" data-menu-open>
@@ -47,7 +50,6 @@
   <div class="mob-menu is-hidden" data-menu>
     <div class="logo-close-container">
       <a href="./index.html" class="link link-mob-menu">
-       
         <p class="logo-text">thewatchspot</p>
       </a>
       <button type="submit" class="mob-close-btn" data-menu-close>
@@ -69,14 +71,24 @@
     </nav>
   </div>
 </header>
-<script src="./js/menu.js"></script>
-  </header>
-  <main>
-    <section>
-      <!-- Hero section -->
+
+    </header>
+    <main>
+      <section>
+        <!-- Hero section -->
 <section class="hero">
+    <div class="hero-bg-wrapper-desktop"></div>
     <div class="container hero-container">
-        <h1 class="hero-title">Welcome to our collection of premium watches</h1>
+        <div class="hero-title-text-flex-wrapper">
+            <div class="hero-title-wrapper">
+            <h1 class="hero-title">Welcome to our collection of premium watches</h1>
+            </div>
+            <div class="hero-text-wrapper-desk">
+                <p class="hero-text-desktop">Our watches are not just timepieces, but also an expression of your
+                    personality and lifestyle. From classic designs to
+                    modern ones, we have a watch to suit every taste and occasion.</p>
+        </div>
+        </div>
         <!-- <div class="swiper mySwiper"> -->
         <!-- <div class="big-wrapper"> -->
         <div class="swiper mySwiper">
@@ -85,46 +97,46 @@
 
                 <div class="swiper-slide">
                     <picture>
-                        <source srcset="/project-05/assets/hero1-mob-ac29f4ec.jpg 1x, /project-05/assets/hero1-mob2x-21498bac.jpg 2x" media="(min-width: 375px)" />
+                        <source srcset="/project-05/assets/hero1-mob-ac29f4ec.jpg 1x, /project-05/assets/hero1-mob2x-21498bac.jpg 2x" media="(max-width: 767px)" />
                         <source srcset="/project-05/assets/hero1-desk-tab-f0b896a9.jpg 1x, /project-05/assets/hero1-desk-tab2x-3f14c0ae.jpg 2x" media="(min-width: 768px)" />
                         <img src="/project-05/assets/hero1-desk-tab-f0b896a9.jpg" alt="watch1">
                     </picture>
                 </div>
                 <div class="swiper-slide">
                     <picture>
-                        <source srcset="/project-05/assets/hero2-mob-7600f874.jpg 1x, /project-05/assets/hero2-mob2x-92f811fb.jpg 2x" media="(min-width: 375px)" />
+                        <source srcset="/project-05/assets/hero2-mob-7600f874.jpg 1x, /project-05/assets/hero2-mob2x-92f811fb.jpg 2x" media="(max-width: 767px)" />
                         <source srcset="/project-05/assets/hero2-desk-tab-8b5b4df0.jpg 1x, /project-05/assets/hero2-desk-tab2x-74954f09.jpg 2x" media="(min-width: 768px)" />
                         <img src="/project-05/assets/hero2-desk-tab-8b5b4df0.jpg" alt="watch2">
                     </picture>
                 </div>
                 <div class="swiper-slide">
                     <picture>
-                        <source srcset="/project-05/assets/hero3-mob-36cc4c18.jpg 1x, /project-05/assets/hero3-mob2x-5f8309f0.jpg 2x" media="(min-width: 375px)" />
+                        <source srcset="/project-05/assets/hero3-mob-36cc4c18.jpg 1x, /project-05/assets/hero3-mob2x-5f8309f0.jpg 2x" media="(max-width: 767px)" />
                         <source srcset="/project-05/assets/hero3-desk-tab-5959cb1e.jpg 1x, /project-05/assets/hero3-desk-tab2x-eb787e34.jpg 2x" media="(min-width: 768px)" />
                         <img src="./img/hero/hero-desc-tab-swiper/hero3-desk-tab.jpg " alt="watch3">
                     </picture>
                 </div>
                 <div class="swiper-slide">
                     <picture>
-                        <source srcset="/project-05/assets/hero4-mob-dfbccdf1.jpg 1x, /project-05/assets/hero4-mob2x-85639f51.jpg 2x" media="(min-width: 375px)" />
+                        <source srcset="/project-05/assets/hero4-mob-dfbccdf1.jpg 1x, /project-05/assets/hero4-mob2x-85639f51.jpg 2x" media="(max-width: 767px)" />
                         <source srcset="/project-05/assets/hero4-desk-tab-29f73c1f.jpg 1x, /project-05/assets/hero4-desk-tab2x-f603db8b.jpg 2x" media="(min-width: 768px)" />
                         <img src="/project-05/assets/hero4-desk-tab-29f73c1f.jpg" alt="watch4">
                     </picture>
                 </div>
                 <div class="swiper-slide">
                     <picture>
-                        <source srcset="/project-05/assets/hero5-mob-2464f8b2.jpg 1x, /project-05/assets/hero5-mob2x-332d590e.jpg 2x" media="(min-width: 375px)" />
+                        <source srcset="/project-05/assets/hero5-mob-2464f8b2.jpg 1x, /project-05/assets/hero5-mob2x-332d590e.jpg 2x" media="(max-width: 767px)" />
                         <source srcset="/project-05/assets/hero5-desk-tab-ae7c5121.jpg 1x, /project-05/assets/hero5-desk-tab2x-cf39efd8.jpg 2x" media="(min-width: 768px)" />
                         <img src="../img/hero/hero-desc-tab-swiper/hero5-desk-tab.jpg" alt="watch5">
                     </picture>
                 </div>
 
-
-                <!-- <div class="hero-text-wrapper-tab-desk">
+                <!-- <div class="hero-bg-wrapper-desktop"></div> -->
+                <div class="hero-text-wrapper-tab-desk">
                                                     <p class="hero-text-tab">Our watches are not just timepieces, but also an expression of your
                                                         personality and lifestyle. From classic designs to
                                                         modern ones, we have a watch to suit every taste and occasion.</p>
-                                                </div> -->
+                                                </div>
             </div>
 
             <div class="buttons-numbers-wrapper">
@@ -160,9 +172,10 @@
 
         </div>
 </section>
-    </section>
-    <section>
-      <section class="section-about" id="about">
+      </section>
+
+      <section>
+        <section class="section-about" id="about">
   <div class="container">
     <div class="container-about">
         <h2 class="about-title">About us</h2>
@@ -188,9 +201,9 @@
   </div>
 </section>
 
-    </section>
-    <section>
-      <section class="catalog" id="catalog">
+      </section>
+      <section>
+        <section class="catalog" id="catalog">
   <div class="container">
     <h2 class="text-title">Catalog</h2>
     <ul class="catalog-list list">
@@ -753,9 +766,9 @@
   </div>
 
 
-    </section>
-    <section>
-       <section class="new-watch">
+      </section>
+      <section>
+        <section class="new-watch">
     <div class="conteiner">
         <p class="new-watch_p">New watches</p>
         <h1 class="new-watch_h">Green And Bronze—The Match Made In Heaven</h1>
@@ -792,9 +805,9 @@
         </ul>
     </div>
 </section>
-    </section>
-    <section>
-      <section class="sale-section" id="sale">
+      </section>
+      <section>
+        <section class="sale-section" id="sale">
   <div class="sale-container">
     <h2 class="sale-title">Sale</h2>
     <div class="sale-foto">
@@ -954,10 +967,10 @@
   </div>
 </section>
 
-    </section>
-  </main>
-  <footer>
-    <footer class="section-footer">
+      </section>
+    </main>
+    <footer>
+      <footer class="section-footer">
   <div class="footer-contaner contaner">
     <div class="logo-address">
       <a class="footer-logo-link link" href="./index.html">
@@ -1064,28 +1077,25 @@
   </div>
 </footer>
 
-  </footer>
-  <script src="./js/modal.js "></script>
-  <script src="./js/menu.js "></script>
-  
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  
-  <script>
-    const swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      loop: true,
-      keyboard: {
-        enabled: true
-      },
+    </footer>
+    <script src="./js/modal.js "></script>
+    <script src="./js/menu.js "></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        keyboard: {
+          enabled: true,
+        },
         navigation: {
-        nextEL: ".button-next",
-        prevel: ".button-prev",
-      }
-    });
-  </script>
-</body>
-
+          nextEL: ".button-next",
+          prevel: ".button-prev",
+        },
+      });
+    </script>
+  </body>
 </html>
-
-
