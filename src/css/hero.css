@@ -14,7 +14,7 @@
 
 .hero {
     background-color: #141414;
-    max-width: 375px;
+    /* max-width: 375px; */
     /* padding-top: 69px; */
     padding-bottom: 40px;
     /* padding-left: 20px;
@@ -27,11 +27,20 @@
 
 .swiper {
     margin-top: 60px;
+    display: block;
+    width: 266px;
+    
 }
 
+ .swiper-text-final-wrapper {
+     display: flex;
+     align-items: center;
 
+ }
 
-
+.hero-text-wrapper-mob {
+    display: none;
+}
 
 .swiper-buttons {
     display: flex;
@@ -95,8 +104,8 @@
 .swiper-numbers {
     margin-left: auto;
     position: absolute;
-    left: 85%;
-    top: 20%
+    left: 114%;
+    top: 21%
 }
 
 .swiper-numbers::before {
@@ -168,7 +177,7 @@
 }
 
 @media screen and (min-width: 375px) {
-    .container {
+    .hero-container{
         width: 375px;
         padding-left: 20px;
         padding-right: 20px;
@@ -177,7 +186,7 @@
 }
 
 @media screen and (max-width: 374px) {
-    .container {
+    .hero-container {
         width: 100%;
         margin-left: auto;
         padding-left: 20px;
@@ -196,18 +205,23 @@
 /* TABLET*/
 
 @media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-        margin: 0px;
-
+    
+    @media screen and (min-width: 768px) and (max-width: 1179px)
+    {
+    .hero-container {
+            width: 768px;
+            padding-left: 32px;
+            padding-right: 32px;
+            margin: 0px;
+    
+        }
     }
+    
 
     .hero {
-        max-width: 768px;
+        /* max-width: 768px; */
         padding-bottom: 62px;
-        max-width: 768px;
+        /* max-width: 768px; */
         margin: 0px auto;
     }
 
@@ -243,25 +257,50 @@
     }
 
 
-    .swiper-wrapper {
-        position: relative;
+    .swiper {
+        width: 436px;
+       
+    }
+    .swiper-big-wrapper {
+        width: 437px;
+        
+    }
+    .swiper-text-final-wrapper {
+        display: flex;
+        align-items: center;
+
     }
 
 
-
-    
     .hero-text-wrapper-tab-desk {
         position: absolute;
         width: 47%;
-        left: 53%;
-        top: 15%;
+        left: 60%;
+        top: 45%;
 
     }
+
+
 
     .hero-text-wrapper-mob {
-        display: none;
+        display: block;
+        width: 250px;
+        margin-left: 0px;
+        margin-top: 0px;
     }
-
+ .hero-text {
+     display: block;
+      width: 248px; 
+      margin-top: 0px;
+     margin-left: 20px; 
+     font-family: 'Epilogue';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 14px;
+     line-height: calc(18 / 14);
+     letter-spacing: -0.02em;
+     color: #FFFFFF;
+ }
 
     .buttons-numbers-wrapper {
         display: flex;
@@ -269,6 +308,7 @@
         flex-wrap: nowrap;
         margin-right: 268px;
         margin-top: 20px;
+        justify-content: space-between;
         position: relative;
     }
 
@@ -290,14 +330,15 @@
     }
 
     .swiper-numbers {
-        margin-left: auto;
-        position: absolute;
-        left: 85%;
-        top: 20%
+        /* margin-left: auto; */
+        /* position: absolute; */
+        left: 221%;
+        top: 40%
     }
 
     .swiper-numbers-line-icon {
         width: 40px;
+      
     }
 
     .swiper-numbers::before {
@@ -354,20 +395,32 @@
 /* DESKTOP*/
 
 @media screen and (min-width: 1280px) {
-    .container {
-        width: 1280px;
-        padding-left: 132px;
-        padding-right: 132px;
-    }
+    .hero-container {
+            position: relative;
+            width: 1280px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 80px;
+            /* padding-top: 10px; */
+        }
+
+    
 
     .hero {
         max-width: 1440px;
-        /* margin: 0 auto; */
+        margin: 0 auto;
         position: relative;
-        background-color: #141414;
-        height: 100%;
-        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+
     }
+
+    
+
+    
+
 
     .hero-title {
         display: block;
@@ -383,50 +436,58 @@
 
     .hero-title-text-flex-wrapper {
         display: flex;
-        margin-left: 144px;
+        /* margin-left: 144px; */
+        align-items: flex-start;
+        margin-bottom: 62px;
+
+
     }
+
     .hero-text-wrapper-tab-desk {
         display: none;
     }
+        .hero-text-wrapper-mob {
+            display: none;
+        }
 
+    .hero-text-desktop {
+        display: block;
+        width: 282px;
+        /* margin-top: 40px; */
+        margin-left: 144px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: calc(18 / 14);
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
 
-        .hero-text-desktop {
-            display: block;
-            /* width: 248px; */
-            margin-top: 40px;
-            margin-left: 87px;
-            font-family: 'Epilogue';
-            font-style: normal;
-            font-weight: 300;
-            font-size: 14px;
-            line-height: calc(18 / 14);
-            letter-spacing: -0.02em;
-            color: #FFFFFF;
-            width: 282px;
-            margin-bottom: 77px;
+        .swiper-big-wrapper {
+            margin-ttop: 100px;
         }
 
 
         .swiper-numbers {
             margin-left: auto;
             position: absolute;
-            left: 39%;
-            top: 20%
+            left: 221%;
+            top: 35%
         }
 
 
     .hero-bg-wrapper-desktop,
-    .hero-bg-wrapper
-     {
+    .hero-bg-wrapper {
         position: absolute;
-        left: 44%;
-        top: 32%;
+        left: 515px;
+        top: 27%;
         z-index: 99;
         background-repeat: no-repeat;
         width: 676px;
         height: 394px;
         background-image: url(../img/hero/hand-bg-desc.jpg);
-        background-size: 100% 100%;
+        background-size: 676px 394px;
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -438,7 +499,7 @@
         }
     }
 
-         .hero-bg-wrapper {
-            display: none;
-         }
+    .hero-bg-wrapper {
+        display: none;
+    }
 }
