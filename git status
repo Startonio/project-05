@@ -1,0 +1,532 @@
+
+
+
+
+[33mcommit 88395d5b02c29827c191de53b57b840a12674922[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Tue May 9 14:22:13 2023 +0300
+
+    доробив
+
+[33mcommit 91a7e6187ee5c44d32ec7c356a44e9bf9f0a5e3d[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Tue May 9 12:07:50 2023 +0300
+
+    Revert "Revert "виніс кнопки""
+    
+    This reverts commit 25695bfa8c615989fe721068cc3f327b160436f9.
+
+[33mcommit 944ab5d203e1cb85429d0f8b70aec0cd6130cc07[m
+Merge: 099ab64 8b73594
+Author: Startonio <stassteam08@gmail.com>
+Date:   Tue May 9 11:55:54 2023 +0300
+
+    Merge branch 'main' of https://github.com/Startonio/project-05
+
+[33mcommit 099ab6426e90c04a0399d881a18f1c0ff3dd68d6[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Tue May 9 11:41:27 2023 +0300
+
+    виніс кнопки
+
+[33mcommit 8b73594f51b370666161e06ca44fe4d0417baa20[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Tue May 9 11:41:27 2023 +0300
+
+    виніс кнопки
+
+[33mcommit bb4fd548a9c90a5a1b61c10609071eeee632abf3[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Tue May 9 11:32:22 2023 +0300
+
+    delet ...
+
+[33mcommit 293225d5d7a3bf44784e2afd1ff6bcaf5b134a59[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Tue May 9 11:30:12 2023 +0300
+
+    повернув
+
+[33mcommit 9bb76b5772b2b6e149b3cfd375952c6b025f9b70[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Tue May 9 11:25:40 2023 +0300
+
+     direction: 'horizontal' add
+
+[33mcommit f742eefd191934f1f35206ec38ceb831388c9d57[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Tue May 9 11:23:08 2023 +0300
+
+    swiper добавив
+
+[33mcommit 8c91acd047e11e36aa2052a6e04f3aa7bcaeeab1[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Tue May 9 11:16:24 2023 +0300
+
+    добавив свайпер
+
+[33mcommit 204016b6d5a10b218d1ef60cf4cfae2acd39f938[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Tue May 9 11:10:54 2023 +0300
+
+    убрав секції
+
+[33mcommit f321dccc97a8bc2872556306b6cfbff46d263c74[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Tue May 9 09:41:57 2023 +0300
+
+    убрав hero 1
+
+[33mcommit 98c04ea1eda260cee961b2b1120a8d8daeb594a8[m
+Merge: 948a32a 27532aa
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Tue May 9 09:39:10 2023 +0300
+
+    Merge pull request #35 from Startonio/header
+    
+    script
+
+[33mcommit 27532aa19ec507051b71926ce2bf29d12afbbc9d[m
+Merge: 7fe13cb 948a32a
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Tue May 9 09:39:03 2023 +0300
+
+    Merge branch 'main' into header
+
+[33mcommit 948a32ae522190a8c19b13b64ac9bbfd26e0cdcf[m
+Merge: a4140b0 5c3ae2d
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Tue May 9 09:37:57 2023 +0300
+
+    Merge pull request #36 from Startonio/Hero
+    
+    Hero: pictures and text
+
+[33mcommit a4140b0d67313f68d7e193522e5693d7ff4a70a8[m
+Merge: 7e608bb ca812ed
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Tue May 9 09:37:46 2023 +0300
+
+    Merge pull request #37 from Startonio/hero1
+    
+    Hero1
+
+[33mcommit ca812ed00689bcb4c284a970e8f2c2a57c20d6f5[m
+Author: Ludmila-Nowak <126966727+Ludmila-Nowak@users.noreply.github.com>
+Date:   Tue May 9 07:37:57 2023 +0200
+
+    hero1
+    
+    видалилв
+
+[33mcommit 5c3ae2db9a7c04f9dfe2dcd7816ee6d1cc11c778[m
+Author: devsipoint <4orreg@gmail.com>
+Date:   Tue May 9 08:02:50 2023 +0300
+
+    Hero: pictures and text
+
+[33mcommit 7e608bba812f24295eb87c7e192f05486860237a[m
+Merge: 2a2743c 3f16cb9
+Author: Startonio <stassteam08@gmail.com>
+Date:   Mon May 8 21:46:48 2023 +0300
+
+    Merge branch 'main' of https://github.com/Startonio/project-05
+
+[33mcommit 2a2743ca22514c01e1aed488d2b6e2c19eea7cda[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Mon May 8 21:46:46 2023 +0300
+
+    убрав лишні точки
+
+[33mcommit 7fe13cbae28120d78fe2c059b4d135df4572c5ea[m[33m ([m[1;32mheader[m[33m)[m
+Author: Svitly4nyi-Vla2yslav <126347711+Svitly4nyi-Vla2yslav@users.noreply.github.com>
+Date:   Mon May 8 20:43:22 2023 +0200
+
+    script
+
+[33mcommit 3f16cb950524e92a564f0175e2fead3ac8d19e62[m
+Merge: 218eb8c 67b89ce
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Mon May 8 21:23:26 2023 +0300
+
+    Merge pull request #34 from Startonio/footer
+    
+    Footer
+
+[33mcommit 67b89cedb8a200b07ab482a80d6046882235450f[m
+Author: ZhukRuslan <ruslan.zhuk.rz@gmail.com>
+Date:   Mon May 8 20:43:16 2023 +0300
+
+    add
+
+[33mcommit 218eb8c7225a6956ef6dabcd3afaa930c62efa19[m
+Merge: 0a39768 55e7df1
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Mon May 8 20:38:48 2023 +0300
+
+    Merge pull request #33 from Startonio/Hero
+    
+    Hero-divs-corrected
+
+[33mcommit 55e7df124fb7f15649f0abbf4c567059f7a80da9[m
+Author: devsipoint <4orreg@gmail.com>
+Date:   Mon May 8 20:31:59 2023 +0300
+
+    Hero-divs-corrected
+
+[33mcommit e66fc6372b4b850a2bbfbb06a3f1a79b78695516[m
+Author: Ludmila-Nowak <126966727+Ludmila-Nowak@users.noreply.github.com>
+Date:   Mon May 8 18:48:34 2023 +0200
+
+    hero1
+
+[33mcommit 0a39768adaf748426be6b8c07663d8b2450f6c30[m[33m ([m[1;31morigin/about-us[m[33m)[m
+Merge: 1a0f24e d270f12
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Mon May 8 18:55:53 2023 +0300
+
+    Merge pull request #32 from Startonio/catalog
+    
+    Catalog
+
+[33mcommit 1a0f24e6bd9c5173148995efa3630bc0eb708129[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Mon May 8 18:55:01 2023 +0300
+
+    убрав точки
+
+[33mcommit 35e23cd19174b425bab5c855909cf92bde16eca4[m
+Merge: 6156ef7 76b58ed
+Author: ZhukRuslan <ruslan.zhuk.rz@gmail.com>
+Date:   Mon May 8 18:53:48 2023 +0300
+
+    Merge branch 'main' of https://github.com/Startonio/project-05
+
+[33mcommit 76b58ed59cbfec727afc1b55feb307b6287aea45[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Mon May 8 18:49:01 2023 +0300
+
+    шрифт контейнер та падінг в ебаут
+
+[33mcommit ab43fea8a9547e2d8c0606c2183192f0a75fcbed[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Mon May 8 16:12:24 2023 +0300
+
+    змінив ім'я
+
+[33mcommit d270f12dba91ae956ff6208bb88958c79de7db4a[m[33m ([m[1;32mcatalog[m[33m)[m
+Merge: c410f6e b5e2e58
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Mon May 8 15:13:31 2023 +0300
+
+    Merge branch 'main' into catalog
+
+[33mcommit b5e2e58824e71afd850861a7312d8e89bcf6db06[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Mon May 8 14:10:26 2023 +0300
+
+    видалив претіер
+
+[33mcommit dcd6bb1312e99be198ff836e7492c14a0100b46a[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Mon May 8 14:04:31 2023 +0300
+
+    тест
+
+[33mcommit c410f6eba8c5d5816e2fa2d316c012fdb3966049[m
+Author: Ludmila-Nowak <126966727+Ludmila-Nowak@users.noreply.github.com>
+Date:   Mon May 8 13:00:57 2023 +0200
+
+    Catalog
+    
+    3 ряд картинок
+
+[33mcommit a632b43394eb288d1e07fee41dd848b0d508262c[m
+Author: Ludmila-Nowak <126966727+Ludmila-Nowak@users.noreply.github.com>
+Date:   Mon May 8 12:48:48 2023 +0200
+
+    catalog
+
+[33mcommit beea376153d2a01fa58852b1278f7295ff360967[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Mon May 8 10:41:11 2023 +0300
+
+    добавив черточку
+
+[33mcommit a662515551e65efe511518adf2888bc1648434f6[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Mon May 8 10:33:20 2023 +0300
+
+    тест
+
+[33mcommit 86331b315cefcb40648865377b79518d2f1198ef[m
+Merge: 8200112 cac9c42
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Mon May 8 09:47:06 2023 +0300
+
+    Merge pull request #31 from Startonio/Hero
+    
+    Hero pictures
+
+[33mcommit cac9c424238faaed2384456ca1d13d92c3d7ca54[m
+Merge: fcfab64 8200112
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Mon May 8 09:47:01 2023 +0300
+
+    Merge branch 'main' into Hero
+
+[33mcommit fcfab64cacf38dd7390a6b25fe697bec0085d543[m
+Author: devsipoint <4orreg@gmail.com>
+Date:   Mon May 8 09:43:09 2023 +0300
+
+    Hero pictures
+
+[33mcommit 8200112a359662a88f119a9b7fc2a960c0b549d2[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Mon May 8 09:16:17 2023 +0300
+
+    добавив спрайт для херо
+
+[33mcommit d1fad76a4d12dcaa25dd6d9432bbff66ec06d351[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Mon May 8 07:38:33 2023 +0300
+
+    найшов помилку яка визивала перевизов системи
+
+[33mcommit 8f6c33b13e02b6058103c56fe13c776569500e90[m
+Merge: c57e741 5015b57
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Sun May 7 22:10:46 2023 +0300
+
+    Merge pull request #30 from Startonio/Hero
+    
+    images cut from hero
+
+[33mcommit c57e7419eecece4236f40717f370d2efcd2f3107[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Sun May 7 22:09:40 2023 +0300
+
+    ню вочес
+
+[33mcommit 46f18b8a89a3e662a27a6d28f534263e5bb95ed6[m
+Merge: 7f2fb5b 6e916c1
+Author: Startonio <stassteam08@gmail.com>
+Date:   Sun May 7 22:05:35 2023 +0300
+
+    Merge branch 'main' of https://github.com/Startonio/the-watch-spot-05
+
+[33mcommit 7f2fb5b93704bb7c7ff0035ef12ca01853a105de[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Sun May 7 22:05:25 2023 +0300
+
+    добавив фото
+
+[33mcommit 6156ef7b725ca129179b3f17e7e01b66db83d3c2[m
+Merge: 07ce67f 6e916c1
+Author: ZhukRuslan <ruslan.zhuk.rz@gmail.com>
+Date:   Sun May 7 21:59:23 2023 +0300
+
+    Merge branch 'main' of https://github.com/Startonio/The-Watch-Spot-05
+
+[33mcommit 07ce67fa15e7ae70c7d19ca2764d67066aba6501[m
+Author: ZhukRuslan <ruslan.zhuk.rz@gmail.com>
+Date:   Sun May 7 21:59:19 2023 +0300
+
+    виправлений шрифт, добавлений root
+
+[33mcommit 5015b57ff73f6d902db703a2b8d3acee001caca6[m
+Author: devsipoint <4orreg@gmail.com>
+Date:   Sun May 7 21:56:23 2023 +0300
+
+    images cut from hero
+
+[33mcommit 6e916c1326ade200581372ad32ba14cb4371cd9f[m
+Merge: d970008 2a542a1
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Sun May 7 21:38:49 2023 +0300
+
+    Merge pull request #29 from Startonio/New-watches
+    
+    new-watchws
+
+[33mcommit 2a542a15145c851e1c98182225cc7f93cae9389f[m
+Author: Yagoda21 <yagoda201@gmail.com>
+Date:   Sun May 7 20:18:59 2023 +0200
+
+    new-watchws
+
+[33mcommit d9700088cb108475a231645c6a8a8835734959e6[m
+Merge: 6f52bcc a566e33
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Sun May 7 21:05:03 2023 +0300
+
+    Merge pull request #27 from Startonio/sale
+    
+    Update sale.css
+
+[33mcommit 6f52bcc3835a7d466eda1d1e9343957ad958d878[m
+Merge: 82dd335 a7cb590
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Sun May 7 21:04:12 2023 +0300
+
+    Merge pull request #26 from Startonio/catalog
+    
+    Catalog
+
+[33mcommit a7cb59083a241f298dfedb3032e11e310009625c[m
+Author: Ludmila-Nowak <126966727+Ludmila-Nowak@users.noreply.github.com>
+Date:   Sun May 7 20:03:39 2023 +0200
+
+    Catalog
+    
+    id
+
+[33mcommit a566e3351f5e0c864e22c2cece943a6546a549f0[m
+Author: SerheiLeonidovich <lettterforme@gmail.com>
+Date:   Sun May 7 21:03:19 2023 +0300
+
+    Update sale.css
+
+[33mcommit 82dd335dabe343c8c254e150bba0dff342307cae[m
+Merge: a2291d7 e00bbc8
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Sun May 7 20:32:50 2023 +0300
+
+    Merge pull request #25 from Startonio/sale
+    
+    Sale
+
+[33mcommit e00bbc8b3cef5590b2d802c2405a84e3b16b1e36[m
+Author: SerheiLeonidovich <lettterforme@gmail.com>
+Date:   Sun May 7 20:23:25 2023 +0300
+
+    Update sale.css
+
+[33mcommit a2291d7cc5be1556e501e594c1a9e1351c5f04b7[m
+Merge: f834771 1e4dc1c
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Sun May 7 20:02:46 2023 +0300
+
+    Merge pull request #24 from Startonio/footer
+    
+    Footer
+
+[33mcommit 8fa8edc8ab32e277c7a02ca0112ed69d2f71ec3c[m
+Author: SerheiLeonidovich <lettterforme@gmail.com>
+Date:   Sun May 7 19:36:33 2023 +0300
+
+    summary
+
+[33mcommit 1e4dc1c0d7919347a928f69134705ad32632acf0[m
+Author: ZhukRuslan <ruslan.zhuk.rz@gmail.com>
+Date:   Sun May 7 19:04:40 2023 +0300
+
+    add
+
+[33mcommit 45eaee50db9d95c555692f64ea00955b2220e7ae[m
+Author: ZhukRuslan <ruslan.zhuk.rz@gmail.com>
+Date:   Sun May 7 17:23:53 2023 +0300
+
+    добавлені id="about"  id="catalog" id="sale"
+
+[33mcommit f8347714f3a6dd76056893a34e36648b2eded932[m
+Merge: ba1a223 6216938
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Sun May 7 17:03:52 2023 +0300
+
+    Merge pull request #22 from Startonio/about-us
+    
+    about 3
+
+[33mcommit 62169383abd85f3d1b1904c6bab919e4288bc7f4[m
+Merge: be1ecf6 ba1a223
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Sun May 7 17:03:45 2023 +0300
+
+    Merge branch 'main' into about-us
+
+[33mcommit ba1a223f06e46834e2bc830e07375f6c3d44f4cc[m
+Merge: 6f64ef1 b4aca8a
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Sun May 7 16:56:38 2023 +0300
+
+    Merge pull request #23 from Startonio/header
+    
+    forgot
+
+[33mcommit 6f64ef1f4c224fd2aafbf18360afaae21bc17893[m
+Merge: 7750ae6 5969ffd
+Author: Startonio <stassteam08@gmail.com>
+Date:   Sun May 7 16:56:03 2023 +0300
+
+    Merge branch 'main' of https://github.com/Startonio/the-watch-spot-05
+
+[33mcommit 7750ae60229ee10f85167d70714d9629a043d2b6[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Sun May 7 16:55:51 2023 +0300
+
+    підрівняв
+
+[33mcommit b4aca8a1ce9d52c4cda867e4d548c63d13ab5592[m
+Author: Svitly4nyi-Vla2yslav <126347711+Svitly4nyi-Vla2yslav@users.noreply.github.com>
+Date:   Sun May 7 15:37:19 2023 +0200
+
+    forgot
+
+[33mcommit be1ecf6a865f5df39a0351262d2976a1f29efa4b[m
+Author: VitaliiHetman <125731041+VitaliiHetman@users.noreply.github.com>
+Date:   Sun May 7 16:32:12 2023 +0300
+
+    about 3
+
+[33mcommit 5969ffd8b9ea12cfc103d86389d47f7c37e29580[m
+Merge: 157ec06 5fce0a6
+Author: Startonio <125660119+Startonio@users.noreply.github.com>
+Date:   Sun May 7 16:26:27 2023 +0300
+
+    Merge pull request #21 from Startonio/header
+    
+    id#
+
+[33mcommit 157ec06c153a17fc68de01bb9891bcd47be32a2d[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Sun May 7 16:24:10 2023 +0300
+
+    добавив скрипт
+
+[33mcommit 5fce0a6bbd442d1fe2d2652d6d986b79fde8b0e5[m
+Author: Svitly4nyi-Vla2yslav <126347711+Svitly4nyi-Vla2yslav@users.noreply.github.com>
+Date:   Sun May 7 15:23:18 2023 +0200
+
+    id#
+
+[33mcommit 9898168a76414b4200439df2c156da7a2d6f6d46[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Sun May 7 16:19:05 2023 +0300
+
+    тест
+
+[33mcommit 9dbd264ae1018b0e6e46393b3f638ed65eb32eb9[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Sun May 7 16:13:16 2023 +0300
+
+    убрав скріпт
+
+[33mcommit 964fc8a01460be0a66fceaea153d3c4df3fb356a[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Sun May 7 15:56:14 2023 +0300
+
+    убрав div
+
+[33mcommit 7a147678180abf920bcd0ee33a0baa71f94c0a04[m
+Merge: e61e617 6c656d2
+Author: Startonio <stassteam08@gmail.com>
+Date:   Sun May 7 15:45:01 2023 +0300
+
+    Merge branch 'main' of https://github.com/Startonio/the-watch-spot-05
+
+[33mcommit e61e617fbf06002d0e56cb8d8d67a9789e51bc12[m
+Author: Startonio <stassteam08@gmail.com>
+Date:   Sun May 7 15:44:42 2023 +0300
+
+    добавив скрипт свайпера

@@ -12,7 +12,7 @@
   height: auto;
   padding-top: 40px;
   padding-bottom: 20px;
-  background: #1e2827;
+  background: var(--title);
 }
 .contaner {
   padding-left: 20px;
@@ -28,11 +28,14 @@
   margin-bottom: 40px;
 }
 
- address {
-   font-style: normal;
- }
- 
+address {
+  font-style: normal;
+}
+
 @media screen and (min-width: 375px) {
+  .contaner {
+    width: 375px;
+  }
   .footer-logo-link {
     display: block;
     margin-bottom: 40px;
@@ -46,17 +49,19 @@
   .contact-inform-tel {
     display: block;
     width: 100%;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.29;
-    color: #ffffff;
+    color: var(--hero-p);
   }
   .contact-inform-map {
     display: block;
     width: 100%;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
-    color: #ffffff;
+    color: var(--hero-p);
   }
 
   /* navigation */
@@ -74,7 +79,7 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--hero-p);
   }
 
   /* social */
@@ -92,7 +97,7 @@
     width: 44px;
     height: 44px;
     text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--paragraph);
     border-radius: 10px;
   }
   .footer-social-item {
@@ -136,6 +141,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .contaner {
+    width: 768px;
+  }
   .section-footer {
     padding-top: 80px;
   }
@@ -179,6 +187,9 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .contaner {
+    width: 1280px;
+  }
   .section-footer {
     padding-top: 104px;
     padding-bottom: 32px;
@@ -186,11 +197,4 @@
   .footer-contaner {
     padding-bottom: 174px;
   }
-  
 }
-
-/* mobale */
-
-/* tablet */
-
-/* descktop */

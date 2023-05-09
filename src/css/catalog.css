@@ -379,6 +379,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .catalog{
+    margin: 0 auto;
+    width: 1280px;
+  }
+
   .container {
     width: 1280px;
     padding-top: 80px;
