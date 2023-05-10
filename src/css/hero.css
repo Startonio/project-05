@@ -281,9 +281,9 @@
 
     }
 
-.hero-text-wrapper-mob-1 {
-    display: none;
-}
+    .hero-text-wrapper-mob-1 {
+        display: none;
+    }
 
     .hero-text-wrapper-mob {
         display: block;
@@ -476,9 +476,9 @@
 
   
 
-        .swiper-big-wrapper {
-            margin-top: 100px;
-        }
+    .swiper-big-wrapper {
+         margin-top: 100px;
+    }
 
 
 
