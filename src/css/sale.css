@@ -95,7 +95,7 @@ button {
 .sale-text-first {
   font-size: 14px;
   line-height: calc(18 / 14);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   color: var(--paragraph);
   width: 335px;
   margin-bottom: 40px;
@@ -222,7 +222,8 @@ button {
     width: 369px;
   }
   .sale-text-first {
-    width: 100%;
+    width: 369px;
+    height: 126px;
   }
   .sale-container {
     display: flex;
