@@ -3,27 +3,25 @@
 /* MOBILE */
 
 .hero-title {
-    width: 335px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 38px;
-    line-height: calc(40 / 38);
-    letter-spacing: -0.04em;
-    color: #FFFFFF;
+  width: 335px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: calc(40 / 38);
+  letter-spacing: -0.04em;
+  color: #ffffff;
 }
 
-.hero {
+.hero{
     background-color: #141414;
     /* max-width: 375px; */
     /* padding-top: 69px; */
     padding-bottom: 40px;
     /* padding-left: 20px;
     padding-right: 20px; */
-    /* text-align: center; */
-    margin: 0 auto;
+  /* text-align: center; */
+  margin: 0 auto;
 }
-
-
 
 .swiper {
     margin-top: 60px;
@@ -42,141 +40,143 @@
     display: none;
 }
 
-.swiper-buttons {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 12px;
 
+.swiper-buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 12px;
 }
 
 .button-prev {
-    position: relative;
-    width: 32px;
-    height: 32px;
-    border: 1px solid rgba(255, 255, 255);
-    opacity: 0, 5;
-    border-radius: 8px;
-    background-color: transparent;
-    outline: none;
-    cursor: pointer;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(255, 255, 255);
+  opacity: 0, 5;
+  border-radius: 8px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
 }
 
 .button-next {
-    position: relative;
-    width: 32px;
-    height: 32px;
-    border: 1px solid #FFFFFF;
-    border-radius: 8px;
-    background-color: transparent;
-    outline: none;
-    cursor: pointer;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
 }
 
 .button-next:hover,
 .button-next:focus,
 .button-prev:active,
 .button-prev:focus {
-    border: 1px solid rgba(255, 255, 255, 0, 5);
+  border: 1px solid rgba(255, 255, 255, 0, 5);
 }
 
 .button-next:active .swiper-button-icon,
 .button-next:focus .swiper-button-icon {
-    stroke: rgba(255, 255, 255, 0, 5);
+  stroke: rgba(255, 255, 255, 0, 5);
 }
 
-
 .swiper-button-icon {
-    position: absolute;
-    left: 6px;
-    top: 6px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .buttons-numbers-wrapper {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin-right: 69px;
-    margin-top: 20px;
-    position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-right: 69px;
+  margin-top: 20px;
+  position: relative;
 }
 
 .swiper-numbers {
+
     margin-left: auto;
     position: absolute;
     left: 114%;
     top: 21%
+
 }
 
 .swiper-numbers::before {
-    display: block;
-    content: "01";
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: calc(18 / 14);
-    letter-spacing: -0.02em;
-    color: #FFFFFF;
-    position: absolute;
-    left: -90%;
-    top: 25%;
+  display: block;
+  content: "01";
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  position: absolute;
+  left: -90%;
+  top: 25%;
 }
 
 .swiper-numbers::after {
-    content: "05";
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: calc(18 / 14);
-    letter-spacing: -0.02em;
-    color: #FFFFFF;
-    position: absolute;
-    right: -103%;
-    top: 25%;
+  content: "05";
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  position: absolute;
+  right: -103%;
+  top: 25%;
 }
 
 .hero-text {
-    display: block;
-    /* width: 248px; */
-    margin-top: 40px;
-    margin-left: 87px;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: calc(18 / 14);
-    letter-spacing: -0.02em;
-    color: #FFFFFF;
+  display: block;
+  /* width: 248px; */
+  margin-top: 40px;
+  margin-left: 87px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  color: #ffffff;
 }
 
 .hero-text-tab {
-    display: none;
+  display: none;
 }
 
 .hero-text-desktop {
-    display: none;
+  display: none;
 }
 
 .hero-bg-wrapper {
-    margin-top: 40px;
-    max-width: 335px;
-    height: 410px;
-    background-image: url(../img/hero/hand-bg-mob.jpg);
-    background-size: 335px 410px;
+  margin-top: 40px;
+  max-width: 335px;
+  height: 410px;
+  background-image: url(../img/hero/hand-bg-mob.jpg);
+  background-size: 335px 410px;
 }
 
 @media (min-device-pixel-ratio: 2),
-(-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .hero-bg-wrapper {
-        background-image: url(../img/hero/hand-bg-mob-2x.jpg);
-    }
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-bg-wrapper {
+    background-image: url(../img/hero/hand-bg-mob-2x.jpg);
+  }
 }
 
 @media screen and (min-width: 375px) {
+
     .hero-container {
         width: 375px;
         padding-left: 20px;
@@ -200,11 +200,16 @@
     }
 
 
+
+  .hero-title {
+    width: 100%;
+  }
 }
 
 /* TABLET*/
 
 @media screen and (min-width: 768px) {
+
 
 
     @media screen and (min-width: 768px) and (max-width: 1179px) {
@@ -236,12 +241,12 @@
         color: #FFFFFF;
     }
 
-
-
-    .hero-text-tab {
-        /* position: absolute; */
-        /* left: 500px;
+  .hero-text-tab {
+    /* position: absolute; */
+    /* left: 500px;
         top: 100px; */
+
+ 
         display: block;
         /* width: 248px; */
         margin-top: 40px;
@@ -279,7 +284,11 @@
         left: 60%;
         top: 45%;
 
-    }
+
+  .swiper-wrapper {
+    position: relative;
+  }
+
 
     .hero-text-wrapper-mob-1 {
         display: none;
@@ -316,22 +325,24 @@
         position: relative;
     }
 
-    .button-next {
-        width: 40px;
-        height: 40px;
-    }
 
-    .button-prev {
-        width: 40px;
-        height: 40px;
-    }
+  .button-next {
+    width: 40px;
+    height: 40px;
+  }
 
-    .swiper-button-icon {
-        position: absolute;
-        left: 10px;
-        top: 10px;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
+  .button-prev {
+    width: 40px;
+    height: 40px;
+  }
+
+  .swiper-button-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
 
     .swiper-numbers {
         /* margin-left: auto; */
@@ -345,60 +356,56 @@
 
     }
 
-    .swiper-numbers::before {
-        display: block;
-        content: "01";
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: calc(18 / 14);
-        letter-spacing: -0.02em;
-        color: #FFFFFF;
-        position: absolute;
-        left: -50%;
-        top: 25%;
-    }
+  .swiper-numbers::before {
+    display: block;
+    content: "01";
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(18 / 14);
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    position: absolute;
+    left: -50%;
+    top: 25%;
+  }
 
-    .swiper-numbers::after {
-        content: "05";
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: calc(18 / 14);
-        letter-spacing: -0.02em;
-        color: #FFFFFF;
-        position: absolute;
-        right: -60%;
-        top: 25%;
-    }
+  .swiper-numbers::after {
+    content: "05";
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(18 / 14);
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    position: absolute;
+    right: -60%;
+    top: 25%;
+  }
 
-    .hero-bg-wrapper {
-        margin-top: 40px;
-        max-width: 704px;
-        background-image: url(../img/hero/hand-bg-tab.jpg);
-        background-size: 704px 410px;
-    }
+  .hero-bg-wrapper {
+    margin-top: 40px;
+    max-width: 704px;
+    background-image: url(../img/hero/hand-bg-tab.jpg);
+    background-size: 704px 410px;
+  }
 
-    @media (min-device-pixel-ratio: 2),
+  @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .hero-bg-wrapper {
-            background-image: url(../img/hero/hand-bg-tab-2x.jpg);
-        }
+    .hero-bg-wrapper {
+      background-image: url(../img/hero/hand-bg-tab-2x.jpg);
     }
-
+  }
 }
-
-
-
-
 
 /* DESKTOP*/
 
 @media screen and (min-width: 1280px) {
+
     .hero-container {
         position: relative;
         width: 1280px;
@@ -503,14 +510,28 @@
         background-size: 676px 394px;
     }
 
-    @media (min-device-pixel-ratio: 2),
+  .hero-bg-wrapper-desktop,
+  .hero-bg-wrapper {
+    position: absolute;
+    left: 44%;
+    top: 32%;
+    z-index: 99;
+    background-repeat: no-repeat;
+    width: 676px;
+    height: 394px;
+    background-image: url(../img/hero/hand-bg-desc.jpg);
+    background-size: 100% 100%;
+  }
+
+  @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .hero-bg-wrapper {
-            background-image: url(../img/hero/hand-bg-desc-2x.jpg);
-        }
+    .hero-bg-wrapper {
+      background-image: url(../img/hero/hand-bg-desc-2x.jpg);
     }
+  }
+
 
     .hero-bg-wrapper {
         display: none;
