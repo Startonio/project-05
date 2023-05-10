@@ -145,7 +145,7 @@ front side (fallback if image is missing) */
   border: none;
   display: flex;
   padding: 14px 28px;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-left: auto;
   transition: background-color250ms var(--transition), border var(--transition);
 }
@@ -356,7 +356,7 @@ front side (fallback if image is missing) */
   }
 
   .catalog-list {
-    gap: 50px 32px;
+    gap: 40px 32px;
   }
 
   .catalog-watch {
@@ -393,12 +393,14 @@ front side (fallback if image is missing) */
   .catalog {
     margin: 0 auto;
     width: 1170px;
-  }
-
-  .container {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
+  /* .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  } */
 
   .catalog {
     margin: 0 auto;
