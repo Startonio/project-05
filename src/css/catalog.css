@@ -2,7 +2,7 @@
   background-color: #ffffff;
   align-items: center;
   display: flex;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 .heart {
@@ -35,6 +35,7 @@
 .catalog-watch {
   background-color: #ffffff;
   flex-basis: 100%;
+  height: 410px;
   align-items: center;
 }
 
@@ -328,9 +329,9 @@ front side (fallback if image is missing) */
     flex-basis: calc((100% - 40px) / 1);
   }
 
-  .flip-card {
+  /* .flip-card {
     width: 335px;
-  }
+  } */
 
   .modal {
     width: 335px;
@@ -341,6 +342,7 @@ front side (fallback if image is missing) */
 @media screen and (min-width: 768px) {
   .catalog {
     width: 768px;
+    padding-bottom: 128px;
   }
   .catalog {
     padding-left: 32px;
@@ -401,7 +403,6 @@ front side (fallback if image is missing) */
   .catalog {
     margin: 0 auto;
     width: 1280px;
-
     /* margin-bottom: 0; */
   }
 
@@ -411,6 +412,7 @@ front side (fallback if image is missing) */
 
   .catalog-watch {
     flex-basis: calc((100% - 72px) / 4);
+    height: 375px;
   }
 
   .flip-card {
