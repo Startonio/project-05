@@ -1,8 +1,16 @@
-/* HERO SECTION */
+.hero {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: #141414;
+}
 
-/* MOBILE */
+.hero-container {
+   width: 375px;
+  
+}
 
 .hero-title {
+
   width: 335px;
   font-style: normal;
   font-weight: 600;
@@ -94,8 +102,8 @@
   margin-top: 20px;
   position: relative;
 }
-
 .swiper-numbers {
+
   margin-left: auto;
   position: absolute;
   left: 114%;
@@ -130,6 +138,17 @@
   right: -103%;
   top: 25%;
 }
+
+
+/* .hero-icon {
+    fill: #FFFFFF;
+} */
+
+.icon {
+    transform: rotateY(180deg);
+}
+
+
 
 .hero-text {
   display: block;
@@ -194,8 +213,6 @@
     width: 100%;
   }
 }
-
-/* TABLET*/
 
 @media screen and (min-width: 768px) {
   @media screen and (min-width: 768px) and (max-width: 1179px) {
@@ -343,7 +360,7 @@
       left: -50%;
       top: 25%;
     }
-
+    
     .swiper-numbers::after {
       content: "05";
       font-family: "Epilogue";
