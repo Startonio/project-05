@@ -3,8 +3,9 @@
     padding: 0 20px;
     margin: 0 auto;
 }
+
 .new-watch{
-    margin-bottom: 80px;
+    padding: 80px 0;
 }
 
 .new-watch_p{
@@ -74,8 +75,6 @@ padding: 0 52px;
 }
 .new-watch{
     background: #FFFFFF;
-    padding: 80px 0;
-    margin-bottom: 80px;
 }
 
 .new-watch_h{
