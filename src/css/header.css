@@ -2,10 +2,10 @@ header{
   background-color: #141414;
 }
 
-.container-header{
+/* .container-header{
   height: 100%;
   width: 100%;
-}
+} */
 .logo-container {
   min-width: 320px;
   padding-top: 29px;
@@ -165,6 +165,7 @@ header{
     padding: 18px 36px 18px 35px;
     background: #1e2827;
     border-radius: 8px;
+    font-style: normal;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -174,8 +175,8 @@ header{
       padding-bottom: 80px;
       margin: 0 auto;
       background-color: #141414;
-      height: 100%;
-      width: 100%;
+      /* height: 100%;
+      width: 100%; */
     }
  
   .logo-container {

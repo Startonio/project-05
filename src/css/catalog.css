@@ -1,6 +1,7 @@
 .catalog {
   background-color: #ffffff;
   align-items: center;
+  /* justify-content: center; */
   display: flex;
   padding-bottom: 80px;
 }
