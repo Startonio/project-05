@@ -212,7 +212,7 @@
             width: 768px;
             padding-left: 32px;
             padding-right: 32px;
-            margin: 0px;
+            margin: 0 auto;
 
         }
 
@@ -337,7 +337,7 @@
         /* margin-left: auto; */
         /* position: absolute; */
         left: 221%;
-        top: 40%
+        top: 40%;
     }
 
     .swiper-numbers-line-icon {
@@ -486,7 +486,7 @@
         margin-left: auto;
         position: absolute;
         left: 221%;
-        top: 35%
+        top: 35%;
     }
 
 
