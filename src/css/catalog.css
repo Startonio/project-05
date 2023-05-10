@@ -29,7 +29,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 50px;
 }
 
 .catalog-watch {
@@ -144,7 +144,7 @@ front side (fallback if image is missing) */
   border: none;
   display: flex;
   padding: 14px 28px;
-  margin-top: 40px;
+  margin-top: 60px;
   margin-left: auto;
   transition: background-color250ms var(--transition), border var(--transition);
 }
@@ -352,7 +352,7 @@ front side (fallback if image is missing) */
   }
 
   .catalog-list {
-    gap: 40px 32px;
+    gap: 50px 32px;
   }
 
   .catalog-watch {
@@ -388,9 +388,9 @@ front side (fallback if image is missing) */
 @media screen and (min-width: 1280px) {
   .catalog {
     margin: 0 auto;
-    width: 1280px;
+    width: 1170px;
     padding-top: 80px;
-    /* padding-bottom: 80px; */
+    padding-bottom: 80px;
   }
 
   .catalog {
@@ -433,6 +433,10 @@ front side (fallback if image is missing) */
 
   .flip-card-back {
     padding: 20p;
+  }
+
+  .catalog-btn {
+    margin-top: 80px;
   }
 
   .modal {
